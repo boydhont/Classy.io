@@ -2,6 +2,8 @@
 
 Classy.io - A project that will revolutionize the AEC industry...
 
+![Render of app](images_of_results/VIKTOR-app.png)
+
 ## How to run the application
 The application is built using the [VIKTOR](https://www.viktor.ai/) platform. If you do not have access to the VIKTOR 
 platform yet, you can sign up for the [free version](https://www.viktor.ai/start-building-apps).
