@@ -39,13 +39,28 @@ const file = await fetch("./assets/model.frag");
 const data = await file.arrayBuffer();
 const buffer = new Uint8Array(data);
 const model = await fragments.load(buffer);
-//const properties = await fetch("./assets/model.json");
-//model.properties = await properties.json();
+const properties = await fetch("./assets/model.json");
+model.properties = await properties.json();
 
+//Property Scanning
+/*const propsProcessor = new OBC.IfcPropertiesProcessor(components);
+propsProcessor.process(model);
+propsProcessor.cleanPropertiesList();*/
 
-// GLobal variables
+// Generate guid list
+let guidList = [];
+for (let key in Object.keys(model.items)) {
+    if (model.items.hasOwnProperty(key) == false) continue;
+    const item = model.items[key];
+    const group = item.group
+    for (const keyVal in Object.keys(group.keyFragments)) guidList.push(group.keyFragments[keyVal]);
+}
+
+console.log(guidList);
+
+// GLobal variables //TODO delete
 let idCounter = 0;
-let maxIdCounter = Object.keys(model.items);
+let maxIdCounter = guidList.length;
 
 // Materials
 const basicMaterial = new THREE.MeshBasicMaterial({
@@ -78,11 +93,10 @@ const setAllMaterials = (material) => {
 const setIdMaterials = (material, id) => {
     let count = 0;
     for (let key in Object.keys(model.items)) {
-        if(model.items.hasOwnProperty(key) == false) continue;
+        if (model.items.hasOwnProperty(key) == false) continue;
         const item = model.items[key];
-        if(count != id) {count ++; continue;}
-        count ++;
-        console.log(item);
+        if (count != id) { count++; continue; }
+        count++;
         item.mesh.material = material;
     }
 }
@@ -161,10 +175,9 @@ const paintMaterials = () => {
 }
 
 
-const paintNextId = () => 
-{
+const paintNextId = () => {
     idCounter++;
-    if(idCounter > maxIdCounter)idCounter = 0;
+    if (idCounter > maxIdCounter) idCounter = 0;
     paintMaterials();
     //TODO add max cap
 }
