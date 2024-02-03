@@ -43,7 +43,11 @@ const model = await fragments.load(buffer);
 //model.properties = await properties.json();
 
 // Basic color
-const basicMaterial = new THREE.MeshStandardMaterial({color:new THREE.Color(255,0,0)})
+const basicMaterial = new THREE.MeshBasicMaterial({
+    color: new THREE.Color(0.5, 0.5, 0.5),  // Set the color of the material
+    transparent: true, // Enable transparency
+    opacity: 0.3       // Set the opacity (0.0 to 1.0, where 0 is fully transparent and 1 is fully opaque)
+  });
 
 for(let key in Object.keys(model.items)){
     if(model.items.hasOwnProperty(key) == false)continue;
@@ -57,7 +61,9 @@ fragmentBbox.add(model);
 const bbox = fragmentBbox.getMesh();
 fragmentBbox.reset();
 const controls = components.camera.controls;
-controls.fitToSphere(bbox, true);
+
+const zoomToFit = () => controls.fitToSphere(bbox, true);
+zoomToFit();
 
 // Hider
 const hider = new OBC.FragmentHider(components);
@@ -134,6 +140,7 @@ const getButtonFromButton = (components, toolbar, materialIcon, tooltip, oldButt
 const toolbar = getToolbar(components, "Main Toolbar");
 const acceptButton = getButton(components, toolbar, "task_alt", "This is a balcony", null);
 const declineButton = getButton(components, toolbar, "dangerous", "This is not a balcony", null);
+const zoomButton = getButton(components, toolbar, "zoom_in_map", "Zoom to Fit", zoomToFit);
 
 //const uploadButton = getButtonFromButton(components, toolbar, "upload", "Upload .ifc", ifcImportButton);
 //const downloadButton = getButton(components, toolbar, "download", "Download .frag and .json", exportFragments);
