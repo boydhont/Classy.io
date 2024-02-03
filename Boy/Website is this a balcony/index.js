@@ -4,7 +4,7 @@
 
 import * as THREE from 'three';
 import * as OBC from 'openbim-components';
-import {downloadZip} from 'client-zip';
+import { downloadZip } from 'client-zip';
 
 //Grab HTML container
 const container = document.getElementById('container');
@@ -22,8 +22,8 @@ components.scene.setup();
 scene.background = new THREE.Color(1, 1, 1);
 
 //Add a grid
-const grid = new OBC.SimpleGrid(components);
-components.tools.add("grid", grid);
+//const grid = new OBC.SimpleGrid(components);
+//components.tools.add("grid", grid);
 
 // 🐒 Import
 
@@ -38,40 +38,21 @@ let fragments = new OBC.FragmentManager(components);
 const file = await fetch("./assets/model.frag");
 const data = await file.arrayBuffer();
 const buffer = new Uint8Array(data);
-const model = fragments.load(buffer);
-const properties = await fetch("./assets/model.json");
-model.properties = await properties.json();
+const model = await fragments.load(buffer);
+//const properties = await fetch("./assets/model.json");
+//model.properties = await properties.json();
 
 //console.log(fragments.list);
 
-// Highlighter
+// Zoom
+const fragmentBbox = new OBC.FragmentBoundingBox(components);
+fragmentBbox.add(model);
+const bbox = fragmentBbox.getMesh();
+fragmentBbox.reset();
+const controls = components.camera.controls;
+controls.fitToSphere(bbox, true);
 
-const highlighter = new OBC.FragmentHighlighter(components, fragments);
-highlighter.setup();
-//components.renderer.postproduction.customEffects.outlineEnabled = true;
-highlighter.outlinesEnabled = true;
-
-const propsProcessor = new OBC.IfcPropertiesProcessor(components)
-propsProcessor.uiElement.get("propertiesWindow").visible = true
-propsProcessor.process(model);
-
-const highlighterEvents = highlighter.events;
-highlighterEvents.select.onClear.add(() => {
-propsProcessor.cleanPropertiesList();
-});
-highlighterEvents.select.onHighlight.add(
-(selection) => {
-const fragmentID = Object.keys(selection)[0];
-const expressID = Number([...selection[fragmentID]][0]);
-let model
-for (const group of fragments.groups) {
-const fragmentFound = Object.values(group.keyFragments).find(id => id === fragmentID)
-if (fragmentFound) model = group;
-}
-propsProcessor.renderProperties(model, expressID);
-}
-);
-
+//classifier.find({entities: [name]});
 
 // 🐇 Export
 
