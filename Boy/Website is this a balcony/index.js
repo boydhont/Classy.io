@@ -42,7 +42,14 @@ const model = await fragments.load(buffer);
 //const properties = await fetch("./assets/model.json");
 //model.properties = await properties.json();
 
-//console.log(fragments.list);
+// Basic color
+const basicMaterial = new THREE.MeshStandardMaterial({color:new THREE.Color(255,0,0)})
+
+for(let key in Object.keys(model.items)){
+    if(model.items.hasOwnProperty(key) == false)continue;
+    const item = model.items[key];
+    item.mesh.material = basicMaterial;
+}
 
 // Zoom
 const fragmentBbox = new OBC.FragmentBoundingBox(components);
@@ -52,7 +59,19 @@ fragmentBbox.reset();
 const controls = components.camera.controls;
 controls.fitToSphere(bbox, true);
 
-//classifier.find({entities: [name]});
+// Hider
+const hider = new OBC.FragmentHider(components);
+await hider.loadCached();
+
+const classifier = new OBC.FragmentClassifier(components);
+classifier.byEntity(model);
+const classifications = classifier.get();
+
+const classes = {};
+const classNames = Object.keys(classifications.entities);
+for (const name of classNames) {
+classes[name] = true;
+}
 
 // 🐇 Export
 
