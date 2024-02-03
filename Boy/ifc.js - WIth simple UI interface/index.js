@@ -22,8 +22,8 @@ components.scene.setup();
 scene.background = new THREE.Color(1, 1, 1);
 
 //Add a grid
-const grid = new OBC.SimpleGrid(components);
-components.tools.add("grid", grid);
+//const grid = new OBC.SimpleGrid(components);
+//components.tools.add("grid", grid);
 
 // 🐒 Import
 

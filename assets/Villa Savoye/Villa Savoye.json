@@ -1,0 +1,6996 @@
+{
+    "1": {
+        "expressID": 1,
+        "type": 2077209135,
+        "Identification": null,
+        "FamilyName": null,
+        "GivenName": {
+            "value": "paullee0@gmail.com",
+            "type": 1
+        },
+        "MiddleNames": null,
+        "PrefixTitles": null,
+        "SuffixTitles": null,
+        "Roles": null,
+        "Addresses": null
+    },
+    "2": {
+        "expressID": 2,
+        "type": 4251960020,
+        "Identification": null,
+        "Name": {
+            "value": "\u0006\u0006\u0006\b\t\u0005\u0003",
+            "type": 1
+        },
+        "Description": null,
+        "Roles": null,
+        "Addresses": null
+    },
+    "3": {
+        "expressID": 3,
+        "type": 101040310,
+        "ThePerson": {
+            "value": 1,
+            "type": 5
+        },
+        "TheOrganization": {
+            "value": 2,
+            "type": 5
+        },
+        "Roles": null
+    },
+    "4": {
+        "expressID": 4,
+        "type": 639542469,
+        "ApplicationDeveloper": {
+            "value": 2,
+            "type": 5
+        },
+        "Version": {
+            "value": "0.19 build 21329 (Git)",
+            "type": 1
+        },
+        "ApplicationFullName": {
+            "value": "FreeCAD",
+            "type": 1
+        },
+        "ApplicationIdentifier": {
+            "value": "118df2cf_ed21_438e_a41",
+            "type": 1
+        }
+    },
+    "5": {
+        "expressID": 5,
+        "type": 1207048766,
+        "OwningUser": {
+            "value": 3,
+            "type": 5
+        },
+        "OwningApplication": {
+            "value": 4,
+            "type": 5
+        },
+        "State": null,
+        "ChangeAction": {
+            "type": 3,
+            "value": "ADDED"
+        },
+        "LastModifiedDate": {
+            "type": 10,
+            "value": 1595956189
+        },
+        "LastModifyingUser": {
+            "value": 3,
+            "type": 5
+        },
+        "LastModifyingApplication": {
+            "value": 4,
+            "type": 5
+        },
+        "CreationDate": {
+            "type": 10,
+            "value": 1595956189
+        }
+    },
+    "8": {
+        "expressID": 8,
+        "type": 1123145078,
+        "Coordinates": [
+            {
+                "type": 4,
+                "value": 0
+            },
+            {
+                "type": 4,
+                "value": 0
+            },
+            {
+                "type": 4,
+                "value": 0
+            }
+        ]
+    },
+    "9": {
+        "expressID": 9,
+        "type": 2740243338,
+        "Location": {
+            "value": 8,
+            "type": 5
+        },
+        "Axis": {
+            "value": 7,
+            "type": 5
+        },
+        "RefDirection": {
+            "value": 6,
+            "type": 5
+        }
+    },
+    "12": {
+        "expressID": 12,
+        "type": 2949456006,
+        "LengthExponent": 0,
+        "MassExponent": 0,
+        "TimeExponent": 0,
+        "ElectricCurrentExponent": 0,
+        "ThermodynamicTemperatureExponent": 0,
+        "AmountOfSubstanceExponent": 0,
+        "LuminousIntensityExponent": 0
+    },
+    "13": {
+        "expressID": 13,
+        "type": 448429030,
+        "Dimensions": {
+            "value": 0,
+            "type": 5
+        },
+        "UnitType": {
+            "type": 3,
+            "value": "LENGTHUNIT"
+        },
+        "Prefix": null,
+        "Name": {
+            "type": 3,
+            "value": "METRE"
+        }
+    },
+    "14": {
+        "expressID": 14,
+        "type": 448429030,
+        "Dimensions": {
+            "value": 0,
+            "type": 5
+        },
+        "UnitType": {
+            "type": 3,
+            "value": "AREAUNIT"
+        },
+        "Prefix": null,
+        "Name": {
+            "type": 3,
+            "value": "SQUARE_METRE"
+        }
+    },
+    "15": {
+        "expressID": 15,
+        "type": 448429030,
+        "Dimensions": {
+            "value": 0,
+            "type": 5
+        },
+        "UnitType": {
+            "type": 3,
+            "value": "VOLUMEUNIT"
+        },
+        "Prefix": null,
+        "Name": {
+            "type": 3,
+            "value": "CUBIC_METRE"
+        }
+    },
+    "16": {
+        "expressID": 16,
+        "type": 448429030,
+        "Dimensions": {
+            "value": 0,
+            "type": 5
+        },
+        "UnitType": {
+            "type": 3,
+            "value": "PLANEANGLEUNIT"
+        },
+        "Prefix": null,
+        "Name": {
+            "type": 3,
+            "value": "RADIAN"
+        }
+    },
+    "17": {
+        "expressID": 17,
+        "type": 2597039031,
+        "ValueComponent": {
+            "type": 4,
+            "value": 0.017453292519943295
+        },
+        "UnitComponent": {
+            "value": 16,
+            "type": 5
+        }
+    },
+    "18": {
+        "expressID": 18,
+        "type": 2889183280,
+        "Dimensions": {
+            "value": 12,
+            "type": 5
+        },
+        "UnitType": {
+            "type": 3,
+            "value": "PLANEANGLEUNIT"
+        },
+        "Name": {
+            "value": "DEGREE",
+            "type": 1
+        },
+        "ConversionFactor": {
+            "value": 17,
+            "type": 5
+        }
+    },
+    "19": {
+        "expressID": 19,
+        "type": 180925521,
+        "Units": [
+            {
+                "value": 13,
+                "type": 5
+            },
+            {
+                "value": 14,
+                "type": 5
+            },
+            {
+                "value": 15,
+                "type": 5
+            },
+            {
+                "value": 18,
+                "type": 5
+            }
+        ]
+    },
+    "23": {
+        "expressID": 23,
+        "type": 103090709,
+        "GlobalId": {
+            "value": "0ncNI221r25fdjjLe4IQ0x",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Villa_Savoye",
+            "type": 1
+        },
+        "Description": null,
+        "ObjectType": null,
+        "LongName": null,
+        "Phase": null,
+        "RepresentationContexts": [
+            {
+                "value": 21,
+                "type": 5
+            }
+        ],
+        "UnitsInContext": {
+            "value": 19,
+            "type": 5
+        }
+    },
+    "24": {
+        "expressID": 24,
+        "type": 3124254112,
+        "GlobalId": {
+            "value": "2$nod3WUnCcfnsQUNeGpzG",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "BldgPart__1F",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0006\u0006\u0006\u0001\f",
+            "type": 1
+        },
+        "ObjectType": null,
+        "ObjectPlacement": null,
+        "Representation": null,
+        "LongName": {
+            "value": "BldgPart__1F",
+            "type": 1
+        },
+        "CompositionType": {
+            "type": 3,
+            "value": "COMPLEX"
+        },
+        "Elevation": {
+            "type": 4,
+            "value": 3.45
+        }
+    },
+    "25": {
+        "expressID": 25,
+        "type": 1095909175,
+        "GlobalId": {
+            "value": "2F7lNUaVf8lAWohQY43qSK",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "BldgPart__1F_WinDoor",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0006\u0006\u0006\u0006\u0003\u0007",
+            "type": 1
+        },
+        "ObjectType": null,
+        "ObjectPlacement": null,
+        "Representation": null,
+        "Tag": null,
+        "PredefinedType": {
+            "type": 3,
+            "value": "COMPLEX"
+        }
+    },
+    "1206": {
+        "expressID": 1206,
+        "type": 2624227202,
+        "PlacementRelTo": null,
+        "RelativePlacement": {
+            "value": 9,
+            "type": 5
+        }
+    },
+    "1209": {
+        "expressID": 1209,
+        "type": 3304561284,
+        "GlobalId": {
+            "value": "28zJED87X0qOip7x2CVCpy",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Win__1F_Win_Front",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0006\u0005\uddd1\udc00",
+            "type": 1
+        },
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 1208,
+            "type": 5
+        },
+        "Tag": {
+            "value": "W1",
+            "type": 1
+        },
+        "OverallHeight": null,
+        "OverallWidth": null,
+        "PredefinedType": {
+            "type": 3,
+            "value": "WINDOW"
+        },
+        "PartitioningType": {
+            "type": 3,
+            "value": "SINGLE_PANEL"
+        },
+        "UserDefinedPartitioningType": null
+    },
+    "1466": {
+        "expressID": 1466,
+        "type": 3304561284,
+        "GlobalId": {
+            "value": "1ULYwN3ir4wB_fLqocE9RN",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Win__1F_Win_Right01",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0006\u0005\uddd1\udc00",
+            "type": 1
+        },
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 1465,
+            "type": 5
+        },
+        "Tag": {
+            "value": "W2",
+            "type": 1
+        },
+        "OverallHeight": null,
+        "OverallWidth": null,
+        "PredefinedType": {
+            "type": 3,
+            "value": "WINDOW"
+        },
+        "PartitioningType": {
+            "type": 3,
+            "value": "SINGLE_PANEL"
+        },
+        "UserDefinedPartitioningType": null
+    },
+    "1723": {
+        "expressID": 1723,
+        "type": 3304561284,
+        "GlobalId": {
+            "value": "0fx_6CJ997KvjO_ejCzjZU",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Win__1F_Win_Left01",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0006\u0005\uddd1\udc00",
+            "type": 1
+        },
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 1722,
+            "type": 5
+        },
+        "Tag": {
+            "value": "W6",
+            "type": 1
+        },
+        "OverallHeight": null,
+        "OverallWidth": null,
+        "PredefinedType": {
+            "type": 3,
+            "value": "WINDOW"
+        },
+        "PartitioningType": {
+            "type": 3,
+            "value": "SINGLE_PANEL"
+        },
+        "UserDefinedPartitioningType": null
+    },
+    "1980": {
+        "expressID": 1980,
+        "type": 3304561284,
+        "GlobalId": {
+            "value": "1uM1vTZpDCthOCqsP4CcL$",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Win__1F_Win_Left02",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0006\u0005\uddd1\udc00",
+            "type": 1
+        },
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 1979,
+            "type": 5
+        },
+        "Tag": {
+            "value": "W5",
+            "type": 1
+        },
+        "OverallHeight": null,
+        "OverallWidth": null,
+        "PredefinedType": {
+            "type": 3,
+            "value": "WINDOW"
+        },
+        "PartitioningType": {
+            "type": 3,
+            "value": "SINGLE_PANEL"
+        },
+        "UserDefinedPartitioningType": null
+    },
+    "2237": {
+        "expressID": 2237,
+        "type": 3304561284,
+        "GlobalId": {
+            "value": "37Jh9N9kz1HwP78dmSftb0",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Win__1F_Win_Left03",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0006\u0005\uddd1\udc00",
+            "type": 1
+        },
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 2236,
+            "type": 5
+        },
+        "Tag": {
+            "value": "W4",
+            "type": 1
+        },
+        "OverallHeight": null,
+        "OverallWidth": null,
+        "PredefinedType": {
+            "type": 3,
+            "value": "WINDOW"
+        },
+        "PartitioningType": {
+            "type": 3,
+            "value": "SINGLE_PANEL"
+        },
+        "UserDefinedPartitioningType": null
+    },
+    "2494": {
+        "expressID": 2494,
+        "type": 3304561284,
+        "GlobalId": {
+            "value": "0pmmqOPTDETeprDosOvjyP",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Win__1F_Win_Left04_NoOpening_IfcPlusPlus",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0006\u0005\uddd1\udc00",
+            "type": 1
+        },
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 2493,
+            "type": 5
+        },
+        "Tag": {
+            "value": "W3",
+            "type": 1
+        },
+        "OverallHeight": null,
+        "OverallWidth": null,
+        "PredefinedType": {
+            "type": 3,
+            "value": "WINDOW"
+        },
+        "PartitioningType": {
+            "type": 3,
+            "value": "SINGLE_PANEL"
+        },
+        "UserDefinedPartitioningType": null
+    },
+    "2653": {
+        "expressID": 2653,
+        "type": 3304561284,
+        "GlobalId": {
+            "value": "1uQO713E55Rx1GYmRYwPzY",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Win__1F_Win_Court_01",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0006\u0005\uddd1\udc00",
+            "type": 1
+        },
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 2652,
+            "type": 5
+        },
+        "Tag": {
+            "value": "W9",
+            "type": 1
+        },
+        "OverallHeight": null,
+        "OverallWidth": null,
+        "PredefinedType": {
+            "type": 3,
+            "value": "WINDOW"
+        },
+        "PartitioningType": {
+            "type": 3,
+            "value": "SINGLE_PANEL"
+        },
+        "UserDefinedPartitioningType": null
+    },
+    "2734": {
+        "expressID": 2734,
+        "type": 3304561284,
+        "GlobalId": {
+            "value": "1_Zx8pov1BsBSyIGxYDscd",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Win__1F_Win_Court_02",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0006\u0005\uddd1\udc00",
+            "type": 1
+        },
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 2733,
+            "type": 5
+        },
+        "Tag": {
+            "value": "W8",
+            "type": 1
+        },
+        "OverallHeight": null,
+        "OverallWidth": null,
+        "PredefinedType": {
+            "type": 3,
+            "value": "WINDOW"
+        },
+        "PartitioningType": {
+            "type": 3,
+            "value": "SINGLE_PANEL"
+        },
+        "UserDefinedPartitioningType": null
+    },
+    "3357": {
+        "expressID": 3357,
+        "type": 3304561284,
+        "GlobalId": {
+            "value": "0mMJtFA$LC0OAy9cyF_CuW",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Win__1F_Ramp_Opening_Window_01",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0006\u0005\uddd1\udc00",
+            "type": 1
+        },
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 3356,
+            "type": 5
+        },
+        "Tag": {
+            "value": "W101",
+            "type": 1
+        },
+        "OverallHeight": null,
+        "OverallWidth": null,
+        "PredefinedType": {
+            "type": 3,
+            "value": "WINDOW"
+        },
+        "PartitioningType": {
+            "type": 3,
+            "value": "SINGLE_PANEL"
+        },
+        "UserDefinedPartitioningType": null
+    },
+    "3610": {
+        "expressID": 3610,
+        "type": 3304561284,
+        "GlobalId": {
+            "value": "2xIQEEbnPFXxFBvGeh_Utd",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Win__1F_Ramp_Opening_Window_02",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0006\u0005\uddd1\udc00",
+            "type": 1
+        },
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 3609,
+            "type": 5
+        },
+        "Tag": {
+            "value": "W102",
+            "type": 1
+        },
+        "OverallHeight": null,
+        "OverallWidth": null,
+        "PredefinedType": {
+            "type": 3,
+            "value": "WINDOW"
+        },
+        "PartitioningType": {
+            "type": 3,
+            "value": "SINGLE_PANEL"
+        },
+        "UserDefinedPartitioningType": null
+    },
+    "3634": {
+        "expressID": 3634,
+        "type": 3304561284,
+        "GlobalId": {
+            "value": "29377XEjDDDA6YBt_W2KZE",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Win__1F_Ramp_Opening_Window_02_Glass",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0006\u0005\uddd1\udc00",
+            "type": 1
+        },
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 3633,
+            "type": 5
+        },
+        "Tag": null,
+        "OverallHeight": null,
+        "OverallWidth": null,
+        "PredefinedType": {
+            "type": 3,
+            "value": "WINDOW"
+        },
+        "PartitioningType": {
+            "type": 3,
+            "value": "SINGLE_PANEL"
+        },
+        "UserDefinedPartitioningType": null
+    },
+    "3767": {
+        "expressID": 3767,
+        "type": 3304561284,
+        "GlobalId": {
+            "value": "1Dc6vt8LH5Eewph86DiLB$",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Win__1F_Ramp_Opening_Window_03",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0006\u0005\uddd1\udc00",
+            "type": 1
+        },
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 3766,
+            "type": 5
+        },
+        "Tag": {
+            "value": "W104",
+            "type": 1
+        },
+        "OverallHeight": null,
+        "OverallWidth": null,
+        "PredefinedType": {
+            "type": 3,
+            "value": "WINDOW"
+        },
+        "PartitioningType": {
+            "type": 3,
+            "value": "SINGLE_PANEL"
+        },
+        "UserDefinedPartitioningType": null
+    },
+    "3791": {
+        "expressID": 3791,
+        "type": 3304561284,
+        "GlobalId": {
+            "value": "3QXFfD7p58BOKKv_fl5gXs",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Win__1F_Ramp_Opening_Window_03_Glass",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0006\u0005\uddd1\udc00",
+            "type": 1
+        },
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 3790,
+            "type": 5
+        },
+        "Tag": null,
+        "OverallHeight": null,
+        "OverallWidth": null,
+        "PredefinedType": {
+            "type": 3,
+            "value": "WINDOW"
+        },
+        "PartitioningType": {
+            "type": 3,
+            "value": "SINGLE_PANEL"
+        },
+        "UserDefinedPartitioningType": null
+    },
+    "4021": {
+        "expressID": 4021,
+        "type": 3304561284,
+        "GlobalId": {
+            "value": "1stx1aVV526RVlWjsiRCzg",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Win__1F_Ramp_Opening_Window_04",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0006\u0005\uddd1\udc00",
+            "type": 1
+        },
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 4020,
+            "type": 5
+        },
+        "Tag": {
+            "value": "W103",
+            "type": 1
+        },
+        "OverallHeight": null,
+        "OverallWidth": null,
+        "PredefinedType": {
+            "type": 3,
+            "value": "WINDOW"
+        },
+        "PartitioningType": {
+            "type": 3,
+            "value": "SINGLE_PANEL"
+        },
+        "UserDefinedPartitioningType": null
+    },
+    "4049": {
+        "expressID": 4049,
+        "type": 3304561284,
+        "GlobalId": {
+            "value": "1TpwN0c4j0pR$zAS6I7XEd",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Win__1F_Ramp_Opening_Window_04_Glass",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0006\u0005\uddd1\udc00",
+            "type": 1
+        },
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 4048,
+            "type": 5
+        },
+        "Tag": null,
+        "OverallHeight": null,
+        "OverallWidth": null,
+        "PredefinedType": {
+            "type": 3,
+            "value": "WINDOW"
+        },
+        "PartitioningType": {
+            "type": 3,
+            "value": "SINGLE_PANEL"
+        },
+        "UserDefinedPartitioningType": null
+    },
+    "4128": {
+        "expressID": 4128,
+        "type": 395920057,
+        "GlobalId": {
+            "value": "2_8rnZwpvEvuhJqk7jSoKa",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Cl__Dr__1100x2100_02",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0006\u0005\uddd1\udc00",
+            "type": 1
+        },
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 4127,
+            "type": 5
+        },
+        "Tag": {
+            "value": "D2",
+            "type": 1
+        },
+        "OverallHeight": {
+            "type": 4,
+            "value": 2100
+        },
+        "OverallWidth": {
+            "type": 4,
+            "value": 1100
+        },
+        "PredefinedType": {
+            "type": 3,
+            "value": "DOOR"
+        },
+        "OperationType": {
+            "type": 3,
+            "value": "SINGLE_SWING_LEFT"
+        },
+        "UserDefinedOperationType": null
+    },
+    "4207": {
+        "expressID": 4207,
+        "type": 395920057,
+        "GlobalId": {
+            "value": "0rVDdT6RH8sR55xP1Fboud",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Cl__Dr__1100x2100_03",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0006\u0005\uddd1\udc00",
+            "type": 1
+        },
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 4206,
+            "type": 5
+        },
+        "Tag": {
+            "value": "D3",
+            "type": 1
+        },
+        "OverallHeight": {
+            "type": 4,
+            "value": 2100
+        },
+        "OverallWidth": {
+            "type": 4,
+            "value": 1100
+        },
+        "PredefinedType": {
+            "type": 3,
+            "value": "DOOR"
+        },
+        "OperationType": {
+            "type": 3,
+            "value": "SINGLE_SWING_LEFT"
+        },
+        "UserDefinedOperationType": null
+    },
+    "4286": {
+        "expressID": 4286,
+        "type": 395920057,
+        "GlobalId": {
+            "value": "2_L0mGMrX6bgYT_llz$4Lx",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Cl__Dr__1100x2100_04",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0006\u0005\uddd1\udc00",
+            "type": 1
+        },
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 4285,
+            "type": 5
+        },
+        "Tag": {
+            "value": "D4",
+            "type": 1
+        },
+        "OverallHeight": {
+            "type": 4,
+            "value": 2100
+        },
+        "OverallWidth": {
+            "type": 4,
+            "value": 1100
+        },
+        "PredefinedType": {
+            "type": 3,
+            "value": "DOOR"
+        },
+        "OperationType": {
+            "type": 3,
+            "value": "SINGLE_SWING_LEFT"
+        },
+        "UserDefinedOperationType": null
+    },
+    "4365": {
+        "expressID": 4365,
+        "type": 3304561284,
+        "GlobalId": {
+            "value": "275MpqQu51BhUso9OY0whW",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Cl__Dr__1100x2100_05",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0006\u0005\uddd1\udc00",
+            "type": 1
+        },
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 4364,
+            "type": 5
+        },
+        "Tag": {
+            "value": "D5",
+            "type": 1
+        },
+        "OverallHeight": {
+            "type": 4,
+            "value": 2100
+        },
+        "OverallWidth": {
+            "type": 4,
+            "value": 1100
+        },
+        "PredefinedType": {
+            "type": 3,
+            "value": "WINDOW"
+        },
+        "PartitioningType": {
+            "type": 3,
+            "value": "SINGLE_PANEL"
+        },
+        "UserDefinedPartitioningType": null
+    },
+    "4444": {
+        "expressID": 4444,
+        "type": 3304561284,
+        "GlobalId": {
+            "value": "3YHshm7DLDmB960Vhdw0vV",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Cl__Dr__1100x2100_06",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0006\u0005\uddd1\udc00",
+            "type": 1
+        },
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 4443,
+            "type": 5
+        },
+        "Tag": {
+            "value": "D6",
+            "type": 1
+        },
+        "OverallHeight": {
+            "type": 4,
+            "value": 2100
+        },
+        "OverallWidth": {
+            "type": 4,
+            "value": 1100
+        },
+        "PredefinedType": {
+            "type": 3,
+            "value": "WINDOW"
+        },
+        "PartitioningType": {
+            "type": 3,
+            "value": "SINGLE_PANEL"
+        },
+        "UserDefinedPartitioningType": null
+    },
+    "4523": {
+        "expressID": 4523,
+        "type": 395920057,
+        "GlobalId": {
+            "value": "30pUWfbIz368lC$vd38X5u",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Cl__Dr__1100x2100_07",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0006\u0005\uddd1\udc00",
+            "type": 1
+        },
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 4522,
+            "type": 5
+        },
+        "Tag": {
+            "value": "D7",
+            "type": 1
+        },
+        "OverallHeight": {
+            "type": 4,
+            "value": 2100
+        },
+        "OverallWidth": {
+            "type": 4,
+            "value": 1100
+        },
+        "PredefinedType": {
+            "type": 3,
+            "value": "DOOR"
+        },
+        "OperationType": {
+            "type": 3,
+            "value": "SINGLE_SWING_LEFT"
+        },
+        "UserDefinedOperationType": null
+    },
+    "4602": {
+        "expressID": 4602,
+        "type": 395920057,
+        "GlobalId": {
+            "value": "2gGuADp3b0RgyqSJjpbEua",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Cl__Dr__1100x2100_08",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0006\u0005\uddd1\udc00",
+            "type": 1
+        },
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 4601,
+            "type": 5
+        },
+        "Tag": {
+            "value": "D8",
+            "type": 1
+        },
+        "OverallHeight": {
+            "type": 4,
+            "value": 2100
+        },
+        "OverallWidth": {
+            "type": 4,
+            "value": 1100
+        },
+        "PredefinedType": {
+            "type": 3,
+            "value": "DOOR"
+        },
+        "OperationType": {
+            "type": 3,
+            "value": "SINGLE_SWING_LEFT"
+        },
+        "UserDefinedOperationType": null
+    },
+    "4681": {
+        "expressID": 4681,
+        "type": 3304561284,
+        "GlobalId": {
+            "value": "2w_aVHiDf5DwVAACSnI9n7",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Cl__Dr__1100x2100_09",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0006\u0005\uddd1\udc00",
+            "type": 1
+        },
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 4680,
+            "type": 5
+        },
+        "Tag": {
+            "value": "D9",
+            "type": 1
+        },
+        "OverallHeight": {
+            "type": 4,
+            "value": 2100
+        },
+        "OverallWidth": {
+            "type": 4,
+            "value": 1100
+        },
+        "PredefinedType": {
+            "type": 3,
+            "value": "WINDOW"
+        },
+        "PartitioningType": {
+            "type": 3,
+            "value": "SINGLE_PANEL"
+        },
+        "UserDefinedPartitioningType": null
+    },
+    "4760": {
+        "expressID": 4760,
+        "type": 3304561284,
+        "GlobalId": {
+            "value": "1SOv4sjY50lhEfPDDFaY$4",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Cl__Dr__1100x2100_10",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0006\u0005\uddd1\udc00",
+            "type": 1
+        },
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 4759,
+            "type": 5
+        },
+        "Tag": {
+            "value": "D10",
+            "type": 1
+        },
+        "OverallHeight": {
+            "type": 4,
+            "value": 2100
+        },
+        "OverallWidth": {
+            "type": 4,
+            "value": 1100
+        },
+        "PredefinedType": {
+            "type": 3,
+            "value": "WINDOW"
+        },
+        "PartitioningType": {
+            "type": 3,
+            "value": "SINGLE_PANEL"
+        },
+        "UserDefinedPartitioningType": null
+    },
+    "4839": {
+        "expressID": 4839,
+        "type": 3304561284,
+        "GlobalId": {
+            "value": "2CC4jeuFvCEBgfzD6cqvtR",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Cl__Dr__1100x2100_11",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0006\u0005\uddd1\udc00",
+            "type": 1
+        },
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 4838,
+            "type": 5
+        },
+        "Tag": {
+            "value": "D11",
+            "type": 1
+        },
+        "OverallHeight": {
+            "type": 4,
+            "value": 2100
+        },
+        "OverallWidth": {
+            "type": 4,
+            "value": 1100
+        },
+        "PredefinedType": {
+            "type": 3,
+            "value": "WINDOW"
+        },
+        "PartitioningType": {
+            "type": 3,
+            "value": "SINGLE_PANEL"
+        },
+        "UserDefinedPartitioningType": null
+    },
+    "4918": {
+        "expressID": 4918,
+        "type": 395920057,
+        "GlobalId": {
+            "value": "0ERUPeJwLAMQzE6c0xEN7k",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Cl__Dr__1100x2100_12",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0006\u0005\uddd1\udc00",
+            "type": 1
+        },
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 4917,
+            "type": 5
+        },
+        "Tag": {
+            "value": "D12",
+            "type": 1
+        },
+        "OverallHeight": {
+            "type": 4,
+            "value": 2100
+        },
+        "OverallWidth": {
+            "type": 4,
+            "value": 1100
+        },
+        "PredefinedType": {
+            "type": 3,
+            "value": "DOOR"
+        },
+        "OperationType": {
+            "type": 3,
+            "value": "SINGLE_SWING_LEFT"
+        },
+        "UserDefinedOperationType": null
+    },
+    "6093": {
+        "expressID": 6093,
+        "type": 3304561284,
+        "GlobalId": {
+            "value": "2bEiGyyHj4HhXb1tVJW5oz",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Win__1F_Win_Back",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0006\u0005\uddd1\udc00",
+            "type": 1
+        },
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 6092,
+            "type": 5
+        },
+        "Tag": {
+            "value": "W7",
+            "type": 1
+        },
+        "OverallHeight": null,
+        "OverallWidth": null,
+        "PredefinedType": {
+            "type": 3,
+            "value": "WINDOW"
+        },
+        "PartitioningType": {
+            "type": 3,
+            "value": "SINGLE_PANEL"
+        },
+        "UserDefinedPartitioningType": null
+    },
+    "6114": {
+        "expressID": 6114,
+        "type": 1095909175,
+        "GlobalId": {
+            "value": "3BTDGQU$nD7uQnhRl8JCcT",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "PlantExtru__1F_0.3mH_Plant",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0006\u0005\uddd1\udc00",
+            "type": 1
+        },
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 6113,
+            "type": 5
+        },
+        "Tag": null,
+        "PredefinedType": null
+    },
+    "6946": {
+        "expressID": 6946,
+        "type": 1095909175,
+        "GlobalId": {
+            "value": "2V5r9axBz1$8p$bQSBBssk",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Struc__1F_Column",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0006\u0005\uddd1\udc00",
+            "type": 1
+        },
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 6945,
+            "type": 5
+        },
+        "Tag": null,
+        "PredefinedType": {
+            "type": 3,
+            "value": "COMPLEX"
+        }
+    },
+    "6962": {
+        "expressID": 6962,
+        "type": 1095909175,
+        "GlobalId": {
+            "value": "3M__Cq3ej7KhsOPIf6Bzjo",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Struc__1F_RampL",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0006\u0005\uddd1\udc00",
+            "type": 1
+        },
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 6961,
+            "type": 5
+        },
+        "Tag": null,
+        "PredefinedType": {
+            "type": 3,
+            "value": "COMPLEX"
+        }
+    },
+    "6976": {
+        "expressID": 6976,
+        "type": 1095909175,
+        "GlobalId": {
+            "value": "0EV7GLy0nAf9vCyXpazRZd",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Struc__1F_RampLanding",
+            "type": 1
+        },
+        "Description": null,
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 6975,
+            "type": 5
+        },
+        "Tag": null,
+        "PredefinedType": {
+            "type": 3,
+            "value": "ELEMENT"
+        }
+    },
+    "6977": {
+        "expressID": 6977,
+        "type": 160246688,
+        "GlobalId": {
+            "value": "0pBAJNaLPEBuuptKRD8adr",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Addition",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u00052\u001b",
+            "type": 1
+        },
+        "RelatingObject": {
+            "value": 6962,
+            "type": 5
+        },
+        "RelatedObjects": [
+            {
+                "value": 6976,
+                "type": 5
+            }
+        ]
+    },
+    "6991": {
+        "expressID": 6991,
+        "type": 1095909175,
+        "GlobalId": {
+            "value": "0i044Jz7nESQXTylroB1Sc",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Struc__1F_RampR",
+            "type": 1
+        },
+        "Description": null,
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 6990,
+            "type": 5
+        },
+        "Tag": null,
+        "PredefinedType": {
+            "type": 3,
+            "value": "ELEMENT"
+        }
+    },
+    "6992": {
+        "expressID": 6992,
+        "type": 160246688,
+        "GlobalId": {
+            "value": "2EY9KULrz0YvmKvVOl42Js",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Addition",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u00052\u001b",
+            "type": 1
+        },
+        "RelatingObject": {
+            "value": 6962,
+            "type": 5
+        },
+        "RelatedObjects": [
+            {
+                "value": 6991,
+                "type": 5
+            }
+        ]
+    },
+    "7028": {
+        "expressID": 7028,
+        "type": 1529196076,
+        "GlobalId": {
+            "value": "2OuXXH52D2WB1IU5C2pnLI",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Struc__1F_Slab",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0006\u0005\uddd1\udc00",
+            "type": 1
+        },
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 7027,
+            "type": 5
+        },
+        "Tag": null,
+        "PredefinedType": {
+            "type": 3,
+            "value": "FLOOR"
+        }
+    },
+    "7085": {
+        "expressID": 7085,
+        "type": 2391406946,
+        "GlobalId": {
+            "value": "0VXkeJoa16DfcFql275c0w",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Wall__1F_0.4mH_Planter",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0006\u0005\uddd1\udc00",
+            "type": 1
+        },
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 7084,
+            "type": 5
+        },
+        "Tag": null,
+        "PredefinedType": {
+            "type": 3,
+            "value": "MOVABLE"
+        }
+    },
+    "7121": {
+        "expressID": 7121,
+        "type": 2391406946,
+        "GlobalId": {
+            "value": "0NsbcQVHz7C9oGEeJBlJzO",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Wall__1F_0.9mHparapet",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0006\u0005\uddd1\udc00",
+            "type": 1
+        },
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 7120,
+            "type": 5
+        },
+        "Tag": null,
+        "PredefinedType": {
+            "type": 3,
+            "value": "MOVABLE"
+        }
+    },
+    "7384": {
+        "expressID": 7384,
+        "type": 2391406946,
+        "GlobalId": {
+            "value": "0D09gOgWH95BCTVau1lLiY",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Wall__1F_3.1mH",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0006\u0005\uddd1\udc00",
+            "type": 1
+        },
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 7383,
+            "type": 5
+        },
+        "Tag": null,
+        "PredefinedType": {
+            "type": 3,
+            "value": "MOVABLE"
+        }
+    },
+    "7415": {
+        "expressID": 7415,
+        "type": 1095909175,
+        "GlobalId": {
+            "value": "3J1po5kzj9l87Ww7yQZawV",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Wall__2F_Slab_Upstand",
+            "type": 1
+        },
+        "Description": null,
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 7414,
+            "type": 5
+        },
+        "Tag": null,
+        "PredefinedType": {
+            "type": 3,
+            "value": "ELEMENT"
+        }
+    },
+    "7416": {
+        "expressID": 7416,
+        "type": 160246688,
+        "GlobalId": {
+            "value": "0QweSlSALAKfyGMRipC2WX",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Addition",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0005؜",
+            "type": 1
+        },
+        "RelatingObject": {
+            "value": 7384,
+            "type": 5
+        },
+        "RelatedObjects": [
+            {
+                "value": 7415,
+                "type": 5
+            }
+        ]
+    },
+    "7431": {
+        "expressID": 7431,
+        "type": 3588315303,
+        "GlobalId": {
+            "value": "3SYhPjEfrEgfeTetlv_NeH",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Extru__1F_RampParapet01_Outline",
+            "type": 1
+        },
+        "Description": null,
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 7430,
+            "type": 5
+        },
+        "Tag": null,
+        "PredefinedType": null
+    },
+    "7432": {
+        "expressID": 7432,
+        "type": 1401173127,
+        "GlobalId": {
+            "value": "297LdxRn52bxGjOld0bEfe",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Subtraction",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0005؜",
+            "type": 1
+        },
+        "RelatingBuildingElement": {
+            "value": 7384,
+            "type": 5
+        },
+        "RelatedOpeningElement": {
+            "value": 7431,
+            "type": 5
+        }
+    },
+    "7447": {
+        "expressID": 7447,
+        "type": 3588315303,
+        "GlobalId": {
+            "value": "0YievQiirFxfxuNmXV5kyM",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Extru__1F_2F_RampParapet02_Outline",
+            "type": 1
+        },
+        "Description": null,
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 7446,
+            "type": 5
+        },
+        "Tag": null,
+        "PredefinedType": null
+    },
+    "7448": {
+        "expressID": 7448,
+        "type": 1401173127,
+        "GlobalId": {
+            "value": "1X$LibikrChwgbobKPTauq",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Subtraction",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0005؜",
+            "type": 1
+        },
+        "RelatingBuildingElement": {
+            "value": 7384,
+            "type": 5
+        },
+        "RelatedOpeningElement": {
+            "value": 7447,
+            "type": 5
+        }
+    },
+    "7463": {
+        "expressID": 7463,
+        "type": 3588315303,
+        "GlobalId": {
+            "value": "0hQw2xRYv4cQqwfdY7MtgT",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Extru__1F_RampAdjacentWall_Opening",
+            "type": 1
+        },
+        "Description": null,
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 7462,
+            "type": 5
+        },
+        "Tag": null,
+        "PredefinedType": null
+    },
+    "7464": {
+        "expressID": 7464,
+        "type": 1401173127,
+        "GlobalId": {
+            "value": "2ntJiWsRD33OL3sa9m7ZbU",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Subtraction",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0005؜",
+            "type": 1
+        },
+        "RelatingBuildingElement": {
+            "value": 7384,
+            "type": 5
+        },
+        "RelatedOpeningElement": {
+            "value": 7463,
+            "type": 5
+        }
+    },
+    "7495": {
+        "expressID": 7495,
+        "type": 3588315303,
+        "GlobalId": {
+            "value": "1BVYW_MKDEXeDekkZpT7lu",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Cl__Dr__1100x2100_02",
+            "type": 1
+        },
+        "Description": null,
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 7494,
+            "type": 5
+        },
+        "Tag": null,
+        "PredefinedType": null
+    },
+    "7496": {
+        "expressID": 7496,
+        "type": 1401173127,
+        "GlobalId": {
+            "value": "3xTOWKmEr3AOZRyz22OFmU",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Subtraction",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0005؜",
+            "type": 1
+        },
+        "RelatingBuildingElement": {
+            "value": 7384,
+            "type": 5
+        },
+        "RelatedOpeningElement": {
+            "value": 7495,
+            "type": 5
+        }
+    },
+    "7527": {
+        "expressID": 7527,
+        "type": 3588315303,
+        "GlobalId": {
+            "value": "2DuV3Zi5r0f8aDW6MIJmDb",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Cl__Dr__1100x2100_03",
+            "type": 1
+        },
+        "Description": null,
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 7526,
+            "type": 5
+        },
+        "Tag": null,
+        "PredefinedType": null
+    },
+    "7528": {
+        "expressID": 7528,
+        "type": 1401173127,
+        "GlobalId": {
+            "value": "1sAj5S5gTD8v8S3ceI_giU",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Subtraction",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0005؜",
+            "type": 1
+        },
+        "RelatingBuildingElement": {
+            "value": 7384,
+            "type": 5
+        },
+        "RelatedOpeningElement": {
+            "value": 7527,
+            "type": 5
+        }
+    },
+    "7559": {
+        "expressID": 7559,
+        "type": 3588315303,
+        "GlobalId": {
+            "value": "3peqvRvyX3zPd3d_AqmUkY",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Cl__Dr__1100x2100_04",
+            "type": 1
+        },
+        "Description": null,
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 7558,
+            "type": 5
+        },
+        "Tag": null,
+        "PredefinedType": null
+    },
+    "7560": {
+        "expressID": 7560,
+        "type": 1401173127,
+        "GlobalId": {
+            "value": "01K_v_4lL4pPlQXP1miDNz",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Subtraction",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0005؜",
+            "type": 1
+        },
+        "RelatingBuildingElement": {
+            "value": 7384,
+            "type": 5
+        },
+        "RelatedOpeningElement": {
+            "value": 7559,
+            "type": 5
+        }
+    },
+    "7591": {
+        "expressID": 7591,
+        "type": 3588315303,
+        "GlobalId": {
+            "value": "2VB3oz$412qxZve7BzqsZe",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Cl__Dr__1100x2100_05",
+            "type": 1
+        },
+        "Description": null,
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 7590,
+            "type": 5
+        },
+        "Tag": null,
+        "PredefinedType": null
+    },
+    "7592": {
+        "expressID": 7592,
+        "type": 1401173127,
+        "GlobalId": {
+            "value": "20p7NQlofEdhG2l8JMQqFK",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Subtraction",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0005؜",
+            "type": 1
+        },
+        "RelatingBuildingElement": {
+            "value": 7384,
+            "type": 5
+        },
+        "RelatedOpeningElement": {
+            "value": 7591,
+            "type": 5
+        }
+    },
+    "7623": {
+        "expressID": 7623,
+        "type": 3588315303,
+        "GlobalId": {
+            "value": "0kb$mJjuf4VvCUoYyDiEwk",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Cl__Dr__1100x2100_06",
+            "type": 1
+        },
+        "Description": null,
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 7622,
+            "type": 5
+        },
+        "Tag": null,
+        "PredefinedType": null
+    },
+    "7624": {
+        "expressID": 7624,
+        "type": 1401173127,
+        "GlobalId": {
+            "value": "3yzQaD4UnBKBBknVjK$PnR",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Subtraction",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0005؜",
+            "type": 1
+        },
+        "RelatingBuildingElement": {
+            "value": 7384,
+            "type": 5
+        },
+        "RelatedOpeningElement": {
+            "value": 7623,
+            "type": 5
+        }
+    },
+    "7655": {
+        "expressID": 7655,
+        "type": 3588315303,
+        "GlobalId": {
+            "value": "12GMkVBf953v9NO2Vy0n4v",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Cl__Dr__1100x2100_07",
+            "type": 1
+        },
+        "Description": null,
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 7654,
+            "type": 5
+        },
+        "Tag": null,
+        "PredefinedType": null
+    },
+    "7656": {
+        "expressID": 7656,
+        "type": 1401173127,
+        "GlobalId": {
+            "value": "3ETyY6h2rELgSsO5_Pk0MM",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Subtraction",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0005؜",
+            "type": 1
+        },
+        "RelatingBuildingElement": {
+            "value": 7384,
+            "type": 5
+        },
+        "RelatedOpeningElement": {
+            "value": 7655,
+            "type": 5
+        }
+    },
+    "7687": {
+        "expressID": 7687,
+        "type": 3588315303,
+        "GlobalId": {
+            "value": "3eMjkjW1f53BDcYfnu6wyB",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Cl__Dr__1100x2100_08",
+            "type": 1
+        },
+        "Description": null,
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 7686,
+            "type": 5
+        },
+        "Tag": null,
+        "PredefinedType": null
+    },
+    "7688": {
+        "expressID": 7688,
+        "type": 1401173127,
+        "GlobalId": {
+            "value": "0qjS$FIcXAXP5IJoxrP_kF",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Subtraction",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0005؜",
+            "type": 1
+        },
+        "RelatingBuildingElement": {
+            "value": 7384,
+            "type": 5
+        },
+        "RelatedOpeningElement": {
+            "value": 7687,
+            "type": 5
+        }
+    },
+    "7719": {
+        "expressID": 7719,
+        "type": 3588315303,
+        "GlobalId": {
+            "value": "1wa_jWYufEZAjRKoY39dQ$",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Cl__Dr__1100x2100_09",
+            "type": 1
+        },
+        "Description": null,
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 7718,
+            "type": 5
+        },
+        "Tag": null,
+        "PredefinedType": null
+    },
+    "7720": {
+        "expressID": 7720,
+        "type": 1401173127,
+        "GlobalId": {
+            "value": "10oXcKG69EkO0gOivSWdCM",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Subtraction",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0005؜",
+            "type": 1
+        },
+        "RelatingBuildingElement": {
+            "value": 7384,
+            "type": 5
+        },
+        "RelatedOpeningElement": {
+            "value": 7719,
+            "type": 5
+        }
+    },
+    "7751": {
+        "expressID": 7751,
+        "type": 3588315303,
+        "GlobalId": {
+            "value": "0ZNe8AOFr6sglp$sH5vVZe",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Cl__Dr__1100x2100_10",
+            "type": 1
+        },
+        "Description": null,
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 7750,
+            "type": 5
+        },
+        "Tag": null,
+        "PredefinedType": null
+    },
+    "7752": {
+        "expressID": 7752,
+        "type": 1401173127,
+        "GlobalId": {
+            "value": "1qMBEWvKf6jOlm8PbG4NTN",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Subtraction",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0005؜",
+            "type": 1
+        },
+        "RelatingBuildingElement": {
+            "value": 7384,
+            "type": 5
+        },
+        "RelatedOpeningElement": {
+            "value": 7751,
+            "type": 5
+        }
+    },
+    "7783": {
+        "expressID": 7783,
+        "type": 3588315303,
+        "GlobalId": {
+            "value": "2tyl5XtWf9IA3vWS9HR4QV",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Cl__Dr__1100x2100_11",
+            "type": 1
+        },
+        "Description": null,
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 7782,
+            "type": 5
+        },
+        "Tag": null,
+        "PredefinedType": null
+    },
+    "7784": {
+        "expressID": 7784,
+        "type": 1401173127,
+        "GlobalId": {
+            "value": "0d5PYAAUL0nvP7fSvytDOx",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Subtraction",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0005؜",
+            "type": 1
+        },
+        "RelatingBuildingElement": {
+            "value": 7384,
+            "type": 5
+        },
+        "RelatedOpeningElement": {
+            "value": 7783,
+            "type": 5
+        }
+    },
+    "7815": {
+        "expressID": 7815,
+        "type": 3588315303,
+        "GlobalId": {
+            "value": "0jE1TkZxX9cA1FVQLzo0kr",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Cl__Dr__1100x2100_12",
+            "type": 1
+        },
+        "Description": null,
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 7814,
+            "type": 5
+        },
+        "Tag": null,
+        "PredefinedType": null
+    },
+    "7816": {
+        "expressID": 7816,
+        "type": 1401173127,
+        "GlobalId": {
+            "value": "3_NEUf7ojBVwofdODBhIAW",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Subtraction",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0005؜",
+            "type": 1
+        },
+        "RelatingBuildingElement": {
+            "value": 7384,
+            "type": 5
+        },
+        "RelatedOpeningElement": {
+            "value": 7815,
+            "type": 5
+        }
+    },
+    "7847": {
+        "expressID": 7847,
+        "type": 3588315303,
+        "GlobalId": {
+            "value": "1usXeq6sH2KwMMMq_GngtC",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Win__1F_Ramp_Opening_Window_01",
+            "type": 1
+        },
+        "Description": null,
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 7846,
+            "type": 5
+        },
+        "Tag": null,
+        "PredefinedType": null
+    },
+    "7848": {
+        "expressID": 7848,
+        "type": 1401173127,
+        "GlobalId": {
+            "value": "1_g59ONqT8b8KtyHwoapXd",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Subtraction",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0005؜",
+            "type": 1
+        },
+        "RelatingBuildingElement": {
+            "value": 7384,
+            "type": 5
+        },
+        "RelatedOpeningElement": {
+            "value": 7847,
+            "type": 5
+        }
+    },
+    "7874": {
+        "expressID": 7874,
+        "type": 3588315303,
+        "GlobalId": {
+            "value": "3B4pr_N1HBpPEKvZG3dWWh",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Win__1F_Ramp_Opening_Window_02",
+            "type": 1
+        },
+        "Description": null,
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 7873,
+            "type": 5
+        },
+        "Tag": null,
+        "PredefinedType": null
+    },
+    "7875": {
+        "expressID": 7875,
+        "type": 1401173127,
+        "GlobalId": {
+            "value": "3zvikOdmX0RO4zQWnGTXad",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Subtraction",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0005؜",
+            "type": 1
+        },
+        "RelatingBuildingElement": {
+            "value": 7384,
+            "type": 5
+        },
+        "RelatedOpeningElement": {
+            "value": 7874,
+            "type": 5
+        }
+    },
+    "7878": {
+        "expressID": 7878,
+        "type": 3588315303,
+        "GlobalId": {
+            "value": "3HQMDuuUDD1PLkOunn_ZiD",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Win__1F_Ramp_Opening_Window_02_Glass",
+            "type": 1
+        },
+        "Description": null,
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 7877,
+            "type": 5
+        },
+        "Tag": null,
+        "PredefinedType": null
+    },
+    "7879": {
+        "expressID": 7879,
+        "type": 1401173127,
+        "GlobalId": {
+            "value": "1rYWK3SIL2Nv6CfI1fghJU",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Subtraction",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0005؜",
+            "type": 1
+        },
+        "RelatingBuildingElement": {
+            "value": 7384,
+            "type": 5
+        },
+        "RelatedOpeningElement": {
+            "value": 7878,
+            "type": 5
+        }
+    },
+    "7905": {
+        "expressID": 7905,
+        "type": 3588315303,
+        "GlobalId": {
+            "value": "39h4ImyY5EUx3DEzDpOmxK",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Win__1F_Ramp_Opening_Window_03",
+            "type": 1
+        },
+        "Description": null,
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 7904,
+            "type": 5
+        },
+        "Tag": null,
+        "PredefinedType": null
+    },
+    "7906": {
+        "expressID": 7906,
+        "type": 1401173127,
+        "GlobalId": {
+            "value": "1JIt1MV6z52uD1lH9foyK1",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Subtraction",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0005؜",
+            "type": 1
+        },
+        "RelatingBuildingElement": {
+            "value": 7384,
+            "type": 5
+        },
+        "RelatedOpeningElement": {
+            "value": 7905,
+            "type": 5
+        }
+    },
+    "7909": {
+        "expressID": 7909,
+        "type": 3588315303,
+        "GlobalId": {
+            "value": "0_BxUw2OnAhv4zDUdB2So$",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Win__1F_Ramp_Opening_Window_03_Glass",
+            "type": 1
+        },
+        "Description": null,
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 7908,
+            "type": 5
+        },
+        "Tag": null,
+        "PredefinedType": null
+    },
+    "7910": {
+        "expressID": 7910,
+        "type": 1401173127,
+        "GlobalId": {
+            "value": "1UzpBN6vr4Sxg32jL19bya",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Subtraction",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0005؜",
+            "type": 1
+        },
+        "RelatingBuildingElement": {
+            "value": 7384,
+            "type": 5
+        },
+        "RelatedOpeningElement": {
+            "value": 7909,
+            "type": 5
+        }
+    },
+    "7941": {
+        "expressID": 7941,
+        "type": 3588315303,
+        "GlobalId": {
+            "value": "3EYkSOCFX8d8au7uH_TWVP",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Win__1F_Ramp_Opening_Window_04",
+            "type": 1
+        },
+        "Description": null,
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 7940,
+            "type": 5
+        },
+        "Tag": null,
+        "PredefinedType": null
+    },
+    "7942": {
+        "expressID": 7942,
+        "type": 1401173127,
+        "GlobalId": {
+            "value": "3HzTnGHRP9HgPfjLNx$TXq",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Subtraction",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0005؜",
+            "type": 1
+        },
+        "RelatingBuildingElement": {
+            "value": 7384,
+            "type": 5
+        },
+        "RelatedOpeningElement": {
+            "value": 7941,
+            "type": 5
+        }
+    },
+    "7945": {
+        "expressID": 7945,
+        "type": 3588315303,
+        "GlobalId": {
+            "value": "04OlorZl56XeGBr5IjMWdF",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Win__1F_Ramp_Opening_Window_04_Glass",
+            "type": 1
+        },
+        "Description": null,
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 7944,
+            "type": 5
+        },
+        "Tag": null,
+        "PredefinedType": null
+    },
+    "7946": {
+        "expressID": 7946,
+        "type": 1401173127,
+        "GlobalId": {
+            "value": "1L$5nvNgT0Tvm_WqKVtn$W",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Subtraction",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0005؜",
+            "type": 1
+        },
+        "RelatingBuildingElement": {
+            "value": 7384,
+            "type": 5
+        },
+        "RelatedOpeningElement": {
+            "value": 7945,
+            "type": 5
+        }
+    },
+    "7977": {
+        "expressID": 7977,
+        "type": 3588315303,
+        "GlobalId": {
+            "value": "0BbWe0eB903QrvhQaBfjUO",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Win__1F_Win_Court_02",
+            "type": 1
+        },
+        "Description": null,
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 7976,
+            "type": 5
+        },
+        "Tag": null,
+        "PredefinedType": null
+    },
+    "7978": {
+        "expressID": 7978,
+        "type": 1401173127,
+        "GlobalId": {
+            "value": "3RIyXBGkj8sB$w38l2n6Av",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Subtraction",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0005؜",
+            "type": 1
+        },
+        "RelatingBuildingElement": {
+            "value": 7384,
+            "type": 5
+        },
+        "RelatedOpeningElement": {
+            "value": 7977,
+            "type": 5
+        }
+    },
+    "7996": {
+        "expressID": 7996,
+        "type": 2391406946,
+        "GlobalId": {
+            "value": "1sMHoyC9z05OiLfGMMn8Us",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Wall__1F_Facade_3.8mH",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0006\u0005\uddd1\udc00",
+            "type": 1
+        },
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 7995,
+            "type": 5
+        },
+        "Tag": null,
+        "PredefinedType": {
+            "type": 3,
+            "value": "MOVABLE"
+        }
+    },
+    "8011": {
+        "expressID": 8011,
+        "type": 3588315303,
+        "GlobalId": {
+            "value": "3cQM0TuI9088tisihEWZEP",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Extru__1F_Win_Right_Opening_02",
+            "type": 1
+        },
+        "Description": null,
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 8010,
+            "type": 5
+        },
+        "Tag": null,
+        "PredefinedType": null
+    },
+    "8012": {
+        "expressID": 8012,
+        "type": 1401173127,
+        "GlobalId": {
+            "value": "3I49hAC4v73PDPlLlUodqQ",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Subtraction",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0005<\u001f",
+            "type": 1
+        },
+        "RelatingBuildingElement": {
+            "value": 7996,
+            "type": 5
+        },
+        "RelatedOpeningElement": {
+            "value": 8011,
+            "type": 5
+        }
+    },
+    "8043": {
+        "expressID": 8043,
+        "type": 3588315303,
+        "GlobalId": {
+            "value": "37eC6KYIHFh89$cJryr2wT",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Win__1F_Win_Front",
+            "type": 1
+        },
+        "Description": null,
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 8042,
+            "type": 5
+        },
+        "Tag": null,
+        "PredefinedType": null
+    },
+    "8044": {
+        "expressID": 8044,
+        "type": 1401173127,
+        "GlobalId": {
+            "value": "3SBKqfG2f5qxm0ejbubBNW",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Subtraction",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0005<\u001f",
+            "type": 1
+        },
+        "RelatingBuildingElement": {
+            "value": 7996,
+            "type": 5
+        },
+        "RelatedOpeningElement": {
+            "value": 8043,
+            "type": 5
+        }
+    },
+    "8075": {
+        "expressID": 8075,
+        "type": 3588315303,
+        "GlobalId": {
+            "value": "36qXKPOHXC68IA29X4sHhZ",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Win__1F_Win_Right01",
+            "type": 1
+        },
+        "Description": null,
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 8074,
+            "type": 5
+        },
+        "Tag": null,
+        "PredefinedType": null
+    },
+    "8076": {
+        "expressID": 8076,
+        "type": 1401173127,
+        "GlobalId": {
+            "value": "1NJ2E6_Nz1mBBvj_L3hL_z",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Subtraction",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0005<\u001f",
+            "type": 1
+        },
+        "RelatingBuildingElement": {
+            "value": 7996,
+            "type": 5
+        },
+        "RelatedOpeningElement": {
+            "value": 8075,
+            "type": 5
+        }
+    },
+    "8107": {
+        "expressID": 8107,
+        "type": 3588315303,
+        "GlobalId": {
+            "value": "2Br60Ays9A2A7L$chLmsVH",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Win__1F_Win_Left01",
+            "type": 1
+        },
+        "Description": null,
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 8106,
+            "type": 5
+        },
+        "Tag": null,
+        "PredefinedType": null
+    },
+    "8108": {
+        "expressID": 8108,
+        "type": 1401173127,
+        "GlobalId": {
+            "value": "2aIGfPdvTBxgWeQbQ4gVHr",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Subtraction",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0005<\u001f",
+            "type": 1
+        },
+        "RelatingBuildingElement": {
+            "value": 7996,
+            "type": 5
+        },
+        "RelatedOpeningElement": {
+            "value": 8107,
+            "type": 5
+        }
+    },
+    "8139": {
+        "expressID": 8139,
+        "type": 3588315303,
+        "GlobalId": {
+            "value": "1Ah9dXC8nDox6yD6UtNo_F",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Win__1F_Win_Left04_NoOpening_IfcPlusPlus",
+            "type": 1
+        },
+        "Description": null,
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 8138,
+            "type": 5
+        },
+        "Tag": null,
+        "PredefinedType": null
+    },
+    "8140": {
+        "expressID": 8140,
+        "type": 1401173127,
+        "GlobalId": {
+            "value": "3MksY$8NDD6g5VUGxQDXGv",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Subtraction",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0005<\u001f",
+            "type": 1
+        },
+        "RelatingBuildingElement": {
+            "value": 7996,
+            "type": 5
+        },
+        "RelatedOpeningElement": {
+            "value": 8139,
+            "type": 5
+        }
+    },
+    "8171": {
+        "expressID": 8171,
+        "type": 3588315303,
+        "GlobalId": {
+            "value": "0buW$c9oHBQhmo4FaEe7Fz",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Win__1F_Win_Left02",
+            "type": 1
+        },
+        "Description": null,
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 8170,
+            "type": 5
+        },
+        "Tag": null,
+        "PredefinedType": null
+    },
+    "8172": {
+        "expressID": 8172,
+        "type": 1401173127,
+        "GlobalId": {
+            "value": "2f4a$2QX1D8R5QbT2668pR",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Subtraction",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0005<\u001f",
+            "type": 1
+        },
+        "RelatingBuildingElement": {
+            "value": 7996,
+            "type": 5
+        },
+        "RelatedOpeningElement": {
+            "value": 8171,
+            "type": 5
+        }
+    },
+    "8203": {
+        "expressID": 8203,
+        "type": 3588315303,
+        "GlobalId": {
+            "value": "0InRtiUE15ou5YSe7OFt_$",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Win__1F_Win_Left03",
+            "type": 1
+        },
+        "Description": null,
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 8202,
+            "type": 5
+        },
+        "Tag": null,
+        "PredefinedType": null
+    },
+    "8204": {
+        "expressID": 8204,
+        "type": 1401173127,
+        "GlobalId": {
+            "value": "3jr3ljZxn6bRDt4RCdQD8p",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Subtraction",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0005<\u001f",
+            "type": 1
+        },
+        "RelatingBuildingElement": {
+            "value": 7996,
+            "type": 5
+        },
+        "RelatedOpeningElement": {
+            "value": 8203,
+            "type": 5
+        }
+    },
+    "8235": {
+        "expressID": 8235,
+        "type": 3588315303,
+        "GlobalId": {
+            "value": "2iieg7G3b3ePeiQFFeJPP_",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Win__1F_Win_Back",
+            "type": 1
+        },
+        "Description": null,
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 8234,
+            "type": 5
+        },
+        "Tag": null,
+        "PredefinedType": null
+    },
+    "8236": {
+        "expressID": 8236,
+        "type": 1401173127,
+        "GlobalId": {
+            "value": "1RpKlu8pX5mA4xAb2Lc$D9",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Subtraction",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0005<\u001f",
+            "type": 1
+        },
+        "RelatingBuildingElement": {
+            "value": 7996,
+            "type": 5
+        },
+        "RelatedOpeningElement": {
+            "value": 8235,
+            "type": 5
+        }
+    },
+    "8237": {
+        "expressID": 8237,
+        "type": 331165859,
+        "GlobalId": {
+            "value": "20oOpgafb1qgJseyA8gWDW",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Stairs__1F",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0006\u0006\u0006\u0006\u0006\b\t\u0005. ",
+            "type": 1
+        },
+        "ObjectType": null,
+        "ObjectPlacement": null,
+        "Representation": null,
+        "Tag": null,
+        "PredefinedType": null
+    },
+    "8708": {
+        "expressID": 8708,
+        "type": 1095909175,
+        "GlobalId": {
+            "value": "1QUohyyfT3bRNrXTOICsMU",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Stairs002",
+            "type": 1
+        },
+        "Description": null,
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 8707,
+            "type": 5
+        },
+        "Tag": null,
+        "PredefinedType": {
+            "type": 3,
+            "value": "ELEMENT"
+        }
+    },
+    "8709": {
+        "expressID": 8709,
+        "type": 160246688,
+        "GlobalId": {
+            "value": "3yDgWZNcL7$9tQz7QZ_EvC",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Addition",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0005- ",
+            "type": 1
+        },
+        "RelatingObject": {
+            "value": 8237,
+            "type": 5
+        },
+        "RelatedObjects": [
+            {
+                "value": 8708,
+                "type": 5
+            }
+        ]
+    },
+    "8786": {
+        "expressID": 8786,
+        "type": 1095909175,
+        "GlobalId": {
+            "value": "0MI0cBWQvCURspyPpOBOoL",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Stairs003",
+            "type": 1
+        },
+        "Description": null,
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 8785,
+            "type": 5
+        },
+        "Tag": null,
+        "PredefinedType": {
+            "type": 3,
+            "value": "ELEMENT"
+        }
+    },
+    "8787": {
+        "expressID": 8787,
+        "type": 160246688,
+        "GlobalId": {
+            "value": "2KE4kMysL7K9ZbMxuDYd4m",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Addition",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0005- ",
+            "type": 1
+        },
+        "RelatingObject": {
+            "value": 8237,
+            "type": 5
+        },
+        "RelatedObjects": [
+            {
+                "value": 8786,
+                "type": 5
+            }
+        ]
+    },
+    "8788": {
+        "expressID": 8788,
+        "type": 1095909175,
+        "GlobalId": {
+            "value": "0nAhzUYT5F$OhjeKwNGU_K",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "BldgPart__1F_Furniture",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0006\u0006\u0006\u0006\u0003\u0007",
+            "type": 1
+        },
+        "ObjectType": null,
+        "ObjectPlacement": null,
+        "Representation": null,
+        "Tag": null,
+        "PredefinedType": {
+            "type": 3,
+            "value": "COMPLEX"
+        }
+    },
+    "8789": {
+        "expressID": 8789,
+        "type": 1095909175,
+        "GlobalId": {
+            "value": "32z4l_BXX389ardKrn56vR",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Lnk__Part__Bed-2_01",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0006\u0006\u0006\u0006\u0006\b\t\u0005V\"",
+            "type": 1
+        },
+        "ObjectType": null,
+        "ObjectPlacement": null,
+        "Representation": null,
+        "Tag": null,
+        "PredefinedType": null
+    },
+    "8790": {
+        "expressID": 8790,
+        "type": 1095909175,
+        "GlobalId": {
+            "value": "2w5r8XTlX6RuM$UlDLo8hI",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Lnk__Part__Bed-1_03",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0006\u0006\u0006\u0006\u0006\b\t\u0005W\"",
+            "type": 1
+        },
+        "ObjectType": null,
+        "ObjectPlacement": null,
+        "Representation": null,
+        "Tag": null,
+        "PredefinedType": null
+    },
+    "8791": {
+        "expressID": 8791,
+        "type": 1095909175,
+        "GlobalId": {
+            "value": "1CE1O24U56EfxJrzOSYFKX",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Lnk__Part__Bed-1_04",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0006\u0006\u0006\u0006\u0006\b\t\u0005X\"",
+            "type": 1
+        },
+        "ObjectType": null,
+        "ObjectPlacement": null,
+        "Representation": null,
+        "Tag": null,
+        "PredefinedType": null
+    },
+    "8792": {
+        "expressID": 8792,
+        "type": 1095909175,
+        "GlobalId": {
+            "value": "15NLSMh7PB8uI1yhvRjpQz",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Lnk__Part__Toilet-VillaSavoye-01",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0006\u0006\u0006\u0006\u0006\b\t\u0005Y\"",
+            "type": 1
+        },
+        "ObjectType": null,
+        "ObjectPlacement": null,
+        "Representation": null,
+        "Tag": null,
+        "PredefinedType": null
+    },
+    "8793": {
+        "expressID": 8793,
+        "type": 1095909175,
+        "GlobalId": {
+            "value": "3F9hdBbT144AMZtaaoyL$s",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Lnk__Part__Toilet-VillaSavoye-02",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0006\u0006\u0006\u0006\u0006\b\t\u0005Z\"",
+            "type": 1
+        },
+        "ObjectType": null,
+        "ObjectPlacement": null,
+        "Representation": null,
+        "Tag": null,
+        "PredefinedType": null
+    },
+    "8794": {
+        "expressID": 8794,
+        "type": 1095909175,
+        "GlobalId": {
+            "value": "1PZs8M_wD6twhprsJLw_Gt",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Lnk__Part__Toilet-VillaSavoye-03",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0006\u0006\u0006\u0006\u0006\b\t\u0005[\"",
+            "type": 1
+        },
+        "ObjectType": null,
+        "ObjectPlacement": null,
+        "Representation": null,
+        "Tag": null,
+        "PredefinedType": null
+    },
+    "8795": {
+        "expressID": 8795,
+        "type": 1095909175,
+        "GlobalId": {
+            "value": "1S18gzbuzBuwKtD69lRzD9",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Lnk__Part__Toilet-VillaSavoye-04",
+            "type": 1
+        },
+        "Description": {
+            "value": "",
+            "type": 1
+        },
+        "ObjectType": null,
+        "ObjectPlacement": null,
+        "Representation": null,
+        "Tag": null,
+        "PredefinedType": null
+    },
+    "8796": {
+        "expressID": 8796,
+        "type": 1095909175,
+        "GlobalId": {
+            "value": "0vYbfLs49CqfKiOUqomkoy",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Lnk__Part__Toilet-VillaSavoye-05",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0006\u0006\u0006\u0006\u0006\b\t\u0005]\"",
+            "type": 1
+        },
+        "ObjectType": null,
+        "ObjectPlacement": null,
+        "Representation": null,
+        "Tag": null,
+        "PredefinedType": null
+    },
+    "8797": {
+        "expressID": 8797,
+        "type": 1095909175,
+        "GlobalId": {
+            "value": "1PFCKIVfvBb9e44l1a4OvS",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "BldgPart__1F_Space",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0006\u0006\u0006\u0006\u0003\u0007",
+            "type": 1
+        },
+        "ObjectType": null,
+        "ObjectPlacement": null,
+        "Representation": null,
+        "Tag": null,
+        "PredefinedType": {
+            "type": 3,
+            "value": "COMPLEX"
+        }
+    },
+    "8811": {
+        "expressID": 8811,
+        "type": 3856911033,
+        "GlobalId": {
+            "value": "1qL2u7zan7nPEbmkQYVt62",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Space__1F_Room-001",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0006\u0005\uddd1\udc00",
+            "type": 1
+        },
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 8810,
+            "type": 5
+        },
+        "LongName": {
+            "value": "Space",
+            "type": 1
+        },
+        "CompositionType": {
+            "type": 3,
+            "value": "COMPLEX"
+        },
+        "PredefinedType": {
+            "type": 3,
+            "value": "SPACE"
+        },
+        "ElevationWithFlooring": {
+            "type": 4,
+            "value": 3.45
+        }
+    },
+    "8826": {
+        "expressID": 8826,
+        "type": 3856911033,
+        "GlobalId": {
+            "value": "0Rj57k_KH09QuvqkIbnNLr",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Space__1F_Room-002",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0006\u0005\uddd1\udc00",
+            "type": 1
+        },
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 8825,
+            "type": 5
+        },
+        "LongName": {
+            "value": "Space",
+            "type": 1
+        },
+        "CompositionType": {
+            "type": 3,
+            "value": "COMPLEX"
+        },
+        "PredefinedType": {
+            "type": 3,
+            "value": "SPACE"
+        },
+        "ElevationWithFlooring": {
+            "type": 4,
+            "value": 3.45
+        }
+    },
+    "8852": {
+        "expressID": 8852,
+        "type": 3856911033,
+        "GlobalId": {
+            "value": "2itDrK36f73uPqcvHqONVE",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Space",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0006\u0005\uddd1\udc00",
+            "type": 1
+        },
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 8851,
+            "type": 5
+        },
+        "LongName": {
+            "value": "Space",
+            "type": 1
+        },
+        "CompositionType": {
+            "type": 3,
+            "value": "COMPLEX"
+        },
+        "PredefinedType": {
+            "type": 3,
+            "value": "SPACE"
+        },
+        "ElevationWithFlooring": {
+            "type": 4,
+            "value": 3.45
+        }
+    },
+    "8865": {
+        "expressID": 8865,
+        "type": 3856911033,
+        "GlobalId": {
+            "value": "1WNnJcUnX0eBcdBn7VKPyN",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Space__1F_Room-003",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0006\u0005\uddd1\udc00",
+            "type": 1
+        },
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 8864,
+            "type": 5
+        },
+        "LongName": {
+            "value": "Space",
+            "type": 1
+        },
+        "CompositionType": {
+            "type": 3,
+            "value": "COMPLEX"
+        },
+        "PredefinedType": {
+            "type": 3,
+            "value": "SPACE"
+        },
+        "ElevationWithFlooring": {
+            "type": 4,
+            "value": 3.45
+        }
+    },
+    "8886": {
+        "expressID": 8886,
+        "type": 3856911033,
+        "GlobalId": {
+            "value": "3RA6zD1GzEzx$P38JYynj_",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Space__1F_Room-004",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0006\u0005\uddd1\udc00",
+            "type": 1
+        },
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 8885,
+            "type": 5
+        },
+        "LongName": {
+            "value": "Space",
+            "type": 1
+        },
+        "CompositionType": {
+            "type": 3,
+            "value": "COMPLEX"
+        },
+        "PredefinedType": {
+            "type": 3,
+            "value": "SPACE"
+        },
+        "ElevationWithFlooring": {
+            "type": 4,
+            "value": 3.45
+        }
+    },
+    "8887": {
+        "expressID": 8887,
+        "type": 3124254112,
+        "GlobalId": {
+            "value": "1tyM3NIoz2kuQaEdSsJaT8",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "BldgPart__2F",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0006\u0006\u0006\u0001\f",
+            "type": 1
+        },
+        "ObjectType": null,
+        "ObjectPlacement": null,
+        "Representation": null,
+        "LongName": {
+            "value": "BldgPart__2F",
+            "type": 1
+        },
+        "CompositionType": {
+            "type": 3,
+            "value": "COMPLEX"
+        },
+        "Elevation": {
+            "type": 4,
+            "value": 6.6
+        }
+    },
+    "8966": {
+        "expressID": 8966,
+        "type": 3304561284,
+        "GlobalId": {
+            "value": "3lyQ2NYiD1q9S58Xwemlv4",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Cl__Dr__1100x2100_01",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0006\u0005\uddd1\udc00",
+            "type": 1
+        },
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 8965,
+            "type": 5
+        },
+        "Tag": {
+            "value": "D201",
+            "type": 1
+        },
+        "OverallHeight": {
+            "type": 4,
+            "value": 2100
+        },
+        "OverallWidth": {
+            "type": 4,
+            "value": 1100
+        },
+        "PredefinedType": {
+            "type": 3,
+            "value": "WINDOW"
+        },
+        "PartitioningType": {
+            "type": 3,
+            "value": "SINGLE_PANEL"
+        },
+        "UserDefinedPartitioningType": null
+    },
+    "8987": {
+        "expressID": 8987,
+        "type": 1095909175,
+        "GlobalId": {
+            "value": "1Hn_Cybvb2PeKNxvZQ4mpH",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "PlantExtru__2F_0.35mH_Plant",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0006\u0005\uddd1\udc00",
+            "type": 1
+        },
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 8986,
+            "type": 5
+        },
+        "Tag": null,
+        "PredefinedType": null
+    },
+    "9027": {
+        "expressID": 9027,
+        "type": 1529196076,
+        "GlobalId": {
+            "value": "3FQ0ndsNP1AxZOueBW4WsV",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Struc__2F_Slab",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0006\u0005\uddd1\udc00",
+            "type": 1
+        },
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 9026,
+            "type": 5
+        },
+        "Tag": null,
+        "PredefinedType": {
+            "type": 3,
+            "value": "FLOOR"
+        }
+    },
+    "9040": {
+        "expressID": 9040,
+        "type": 1095909175,
+        "GlobalId": {
+            "value": "02vHHmw_PFeP7191TaCrNo",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Struc__2F_Table_01",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0006\u0005\uddd1\udc00",
+            "type": 1
+        },
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 9039,
+            "type": 5
+        },
+        "Tag": null,
+        "PredefinedType": {
+            "type": 3,
+            "value": "COMPLEX"
+        }
+    },
+    "9148": {
+        "expressID": 9148,
+        "type": 2391406946,
+        "GlobalId": {
+            "value": "26DslJV9bA0wvOSDxUcsA3",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Wall__2F_0.4mH_Planter",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0006\u0005\uddd1\udc00",
+            "type": 1
+        },
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 9147,
+            "type": 5
+        },
+        "Tag": null,
+        "PredefinedType": {
+            "type": 3,
+            "value": "MOVABLE"
+        }
+    },
+    "9161": {
+        "expressID": 9161,
+        "type": 1095909175,
+        "GlobalId": {
+            "value": "2Rm$uRt552UPDi34g2wKXo",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Wall_2F_0.9mH_Planter",
+            "type": 1
+        },
+        "Description": null,
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 9160,
+            "type": 5
+        },
+        "Tag": null,
+        "PredefinedType": {
+            "type": 3,
+            "value": "ELEMENT"
+        }
+    },
+    "9162": {
+        "expressID": 9162,
+        "type": 160246688,
+        "GlobalId": {
+            "value": "23mPck5cz1ZReWU6oIHkua",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Addition",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0005\udc4c\udc10",
+            "type": 1
+        },
+        "RelatingObject": {
+            "value": 9148,
+            "type": 5
+        },
+        "RelatedObjects": [
+            {
+                "value": 9161,
+                "type": 5
+            }
+        ]
+    },
+    "9175": {
+        "expressID": 9175,
+        "type": 1095909175,
+        "GlobalId": {
+            "value": "09wgqKoenCAxc0l6jRFTNB",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Struc__2F_Table_02",
+            "type": 1
+        },
+        "Description": null,
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 9174,
+            "type": 5
+        },
+        "Tag": null,
+        "PredefinedType": {
+            "type": 3,
+            "value": "ELEMENT"
+        }
+    },
+    "9176": {
+        "expressID": 9176,
+        "type": 160246688,
+        "GlobalId": {
+            "value": "2_e5AM18j5COYTDSRE19zc",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Addition",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0005\udc4c\udc10",
+            "type": 1
+        },
+        "RelatingObject": {
+            "value": 9148,
+            "type": 5
+        },
+        "RelatedObjects": [
+            {
+                "value": 9175,
+                "type": 5
+            }
+        ]
+    },
+    "9312": {
+        "expressID": 9312,
+        "type": 2391406946,
+        "GlobalId": {
+            "value": "1LxuYfaSH0eQKDhr2WElAm",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Wall__2F_2.8mH",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0006\u0005\uddd1\udc00",
+            "type": 1
+        },
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 9311,
+            "type": 5
+        },
+        "Tag": null,
+        "PredefinedType": {
+            "type": 3,
+            "value": "MOVABLE"
+        }
+    },
+    "9326": {
+        "expressID": 9326,
+        "type": 3588315303,
+        "GlobalId": {
+            "value": "1AKnX8ii99CwZEJDAhZYfy",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Extru__2F_WallOpening",
+            "type": 1
+        },
+        "Description": null,
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 9325,
+            "type": 5
+        },
+        "Tag": null,
+        "PredefinedType": null
+    },
+    "9327": {
+        "expressID": 9327,
+        "type": 1401173127,
+        "GlobalId": {
+            "value": "3QAqG5mIj7jgfsYMIUMdl1",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Subtraction",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0005`$",
+            "type": 1
+        },
+        "RelatingBuildingElement": {
+            "value": 9312,
+            "type": 5
+        },
+        "RelatedOpeningElement": {
+            "value": 9326,
+            "type": 5
+        }
+    },
+    "9358": {
+        "expressID": 9358,
+        "type": 3588315303,
+        "GlobalId": {
+            "value": "3ZRabGqRX3rw_jzwH07F8R",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Cl__Dr__1100x2100_01",
+            "type": 1
+        },
+        "Description": null,
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 9357,
+            "type": 5
+        },
+        "Tag": null,
+        "PredefinedType": null
+    },
+    "9359": {
+        "expressID": 9359,
+        "type": 1401173127,
+        "GlobalId": {
+            "value": "2wmjBKfI501fYE73WlfBlw",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Subtraction",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0005`$",
+            "type": 1
+        },
+        "RelatingBuildingElement": {
+            "value": 9312,
+            "type": 5
+        },
+        "RelatedOpeningElement": {
+            "value": 9358,
+            "type": 5
+        }
+    },
+    "9360": {
+        "expressID": 9360,
+        "type": 3124254112,
+        "GlobalId": {
+            "value": "3Ry6pP5vT37Pch4CyMOXO8",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "BldgPart__GF",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0006\u0006\u0006\u0001\f",
+            "type": 1
+        },
+        "ObjectType": null,
+        "ObjectPlacement": null,
+        "Representation": null,
+        "LongName": {
+            "value": "BldgPart__GF",
+            "type": 1
+        },
+        "CompositionType": {
+            "type": 3,
+            "value": "COMPLEX"
+        },
+        "Elevation": {
+            "type": 4,
+            "value": 0.15
+        }
+    },
+    "10113": {
+        "expressID": 10113,
+        "type": 1095909175,
+        "GlobalId": {
+            "value": "1RTEiL7a98tgXfI1EDpuwN",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Struc__GF_Columns_01",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0006\u0005\uddd1\udc00",
+            "type": 1
+        },
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 10112,
+            "type": 5
+        },
+        "Tag": null,
+        "PredefinedType": {
+            "type": 3,
+            "value": "COMPLEX"
+        }
+    },
+    "10716": {
+        "expressID": 10716,
+        "type": 2391406946,
+        "GlobalId": {
+            "value": "2dimREzwT8TOaKDeVsZyIN",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Wall__GF_Column_02",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0006\u0005\uddd1\udc00",
+            "type": 1
+        },
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 10715,
+            "type": 5
+        },
+        "Tag": null,
+        "PredefinedType": {
+            "type": 3,
+            "value": "MOVABLE"
+        }
+    },
+    "10727": {
+        "expressID": 10727,
+        "type": 1095909175,
+        "GlobalId": {
+            "value": "2SWNmR8ZLCjwftXUcyvS3d",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Struc__GF_RampL",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0006\u0005\uddd1\udc00",
+            "type": 1
+        },
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 10726,
+            "type": 5
+        },
+        "Tag": null,
+        "PredefinedType": {
+            "type": 3,
+            "value": "COMPLEX"
+        }
+    },
+    "10734": {
+        "expressID": 10734,
+        "type": 1095909175,
+        "GlobalId": {
+            "value": "0B2xeNuff2y84lIXOf_CgX",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Struc__GF_RampLanding",
+            "type": 1
+        },
+        "Description": null,
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 10733,
+            "type": 5
+        },
+        "Tag": null,
+        "PredefinedType": {
+            "type": 3,
+            "value": "ELEMENT"
+        }
+    },
+    "10735": {
+        "expressID": 10735,
+        "type": 160246688,
+        "GlobalId": {
+            "value": "1jQPpSCRLFsR1FaSlrfTN1",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Addition",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0005穀",
+            "type": 1
+        },
+        "RelatingObject": {
+            "value": 10727,
+            "type": 5
+        },
+        "RelatedObjects": [
+            {
+                "value": 10734,
+                "type": 5
+            }
+        ]
+    },
+    "10746": {
+        "expressID": 10746,
+        "type": 1095909175,
+        "GlobalId": {
+            "value": "2jcRwUYS5EaeBY7N3vhq5w",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Struc__GF_RampR",
+            "type": 1
+        },
+        "Description": null,
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 10745,
+            "type": 5
+        },
+        "Tag": null,
+        "PredefinedType": {
+            "type": 3,
+            "value": "ELEMENT"
+        }
+    },
+    "10747": {
+        "expressID": 10747,
+        "type": 160246688,
+        "GlobalId": {
+            "value": "0GMGvv8AzAtwZanvwPk5m_",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Addition",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0005穀",
+            "type": 1
+        },
+        "RelatingObject": {
+            "value": 10727,
+            "type": 5
+        },
+        "RelatedObjects": [
+            {
+                "value": 10746,
+                "type": 5
+            }
+        ]
+    },
+    "10940": {
+        "expressID": 10940,
+        "type": 2391406946,
+        "GlobalId": {
+            "value": "2aIHrZ3xXCgumHvLKml0Mt",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Wall__GF_3.1mH",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0006\u0005\uddd1\udc00",
+            "type": 1
+        },
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 10939,
+            "type": 5
+        },
+        "Tag": null,
+        "PredefinedType": {
+            "type": 3,
+            "value": "MOVABLE"
+        }
+    },
+    "10971": {
+        "expressID": 10971,
+        "type": 3588315303,
+        "GlobalId": {
+            "value": "21ezYqDJ57oAXqmA4vmQef",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Cl__Dr__1100x2100_13",
+            "type": 1
+        },
+        "Description": null,
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 10970,
+            "type": 5
+        },
+        "Tag": null,
+        "PredefinedType": null
+    },
+    "10972": {
+        "expressID": 10972,
+        "type": 1401173127,
+        "GlobalId": {
+            "value": "3LRD9CNPD8R9LwSbZIeAse",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Subtraction",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0005\udc68\udc10",
+            "type": 1
+        },
+        "RelatingBuildingElement": {
+            "value": 10940,
+            "type": 5
+        },
+        "RelatedOpeningElement": {
+            "value": 10971,
+            "type": 5
+        }
+    },
+    "11052": {
+        "expressID": 11052,
+        "type": 3304561284,
+        "GlobalId": {
+            "value": "1h32PR0aT7hfnWDynwskYa",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Cl__Dr__1100x2100_13",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0006\u0005\uddd1\udc00",
+            "type": 1
+        },
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 11051,
+            "type": 5
+        },
+        "Tag": {
+            "value": "D13",
+            "type": 1
+        },
+        "OverallHeight": {
+            "type": 4,
+            "value": 2100
+        },
+        "OverallWidth": {
+            "type": 4,
+            "value": 1100
+        },
+        "PredefinedType": {
+            "type": 3,
+            "value": "WINDOW"
+        },
+        "PartitioningType": {
+            "type": 3,
+            "value": "SINGLE_PANEL"
+        },
+        "UserDefinedPartitioningType": null
+    },
+    "11128": {
+        "expressID": 11128,
+        "type": 1529196076,
+        "GlobalId": {
+            "value": "2ib3iFET13F9SGd4i0Hzwd",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Struc__GF_Slab",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0006\u0005\uddd1\udc00",
+            "type": 1
+        },
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 11127,
+            "type": 5
+        },
+        "Tag": null,
+        "PredefinedType": {
+            "type": 3,
+            "value": "FLOOR"
+        }
+    },
+    "11164": {
+        "expressID": 11164,
+        "type": 3304561284,
+        "GlobalId": {
+            "value": "2Tcdo25fv0k8JgropymbYk",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "WinWall__GF_GlassWallFrame_01",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0006\u0005\uddd1\udc00",
+            "type": 1
+        },
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 11163,
+            "type": 5
+        },
+        "Tag": null,
+        "OverallHeight": {
+            "type": 4,
+            "value": 3100
+        },
+        "OverallWidth": {
+            "type": 4,
+            "value": 9729.52525898721
+        },
+        "PredefinedType": {
+            "type": 3,
+            "value": "WINDOW"
+        },
+        "PartitioningType": {
+            "type": 3,
+            "value": "SINGLE_PANEL"
+        },
+        "UserDefinedPartitioningType": null
+    },
+    "13127": {
+        "expressID": 13127,
+        "type": 3588315303,
+        "GlobalId": {
+            "value": "0X_s48YN9CI8y0PuyGtito",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "PathArray__GF_GlassPane_Opening_01",
+            "type": 1
+        },
+        "Description": null,
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 13126,
+            "type": 5
+        },
+        "Tag": null,
+        "PredefinedType": null
+    },
+    "13128": {
+        "expressID": 13128,
+        "type": 1401173127,
+        "GlobalId": {
+            "value": "0VWRhuPAbAKehHuKD$wtlD",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Subtraction",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0005\udc6c\udc10",
+            "type": 1
+        },
+        "RelatingBuildingElement": {
+            "value": 11164,
+            "type": 5
+        },
+        "RelatedOpeningElement": {
+            "value": 13127,
+            "type": 5
+        }
+    },
+    "13155": {
+        "expressID": 13155,
+        "type": 3304561284,
+        "GlobalId": {
+            "value": "2Tcdo25fv0k8JgropymbYk",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "WinWall__GF_GlassWallFrame_02",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0006\u0005\uddd1\udc00",
+            "type": 1
+        },
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 13154,
+            "type": 5
+        },
+        "Tag": null,
+        "OverallHeight": {
+            "type": 4,
+            "value": 3100
+        },
+        "OverallWidth": {
+            "type": 4,
+            "value": 3285.19882938986
+        },
+        "PredefinedType": {
+            "type": 3,
+            "value": "WINDOW"
+        },
+        "PartitioningType": {
+            "type": 3,
+            "value": "SINGLE_PANEL"
+        },
+        "UserDefinedPartitioningType": null
+    },
+    "13830": {
+        "expressID": 13830,
+        "type": 3588315303,
+        "GlobalId": {
+            "value": "27vT1TXdn3BvuRzH2bCsBj",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "PathArray__GF_GlassPane_Opening_02",
+            "type": 1
+        },
+        "Description": null,
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 13829,
+            "type": 5
+        },
+        "Tag": null,
+        "PredefinedType": null
+    },
+    "13831": {
+        "expressID": 13831,
+        "type": 1401173127,
+        "GlobalId": {
+            "value": "3jrPcHXB57pensn2kr_HYw",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Subtraction",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0005c3",
+            "type": 1
+        },
+        "RelatingBuildingElement": {
+            "value": 13155,
+            "type": 5
+        },
+        "RelatedOpeningElement": {
+            "value": 13830,
+            "type": 5
+        }
+    },
+    "13873": {
+        "expressID": 13873,
+        "type": 2391406946,
+        "GlobalId": {
+            "value": "3XMgSzYPvDrQ03DhWxG7OD",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Wall__GF_0.6mHparaet",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0006\u0005\uddd1\udc00",
+            "type": 1
+        },
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 13872,
+            "type": 5
+        },
+        "Tag": null,
+        "PredefinedType": {
+            "type": 3,
+            "value": "MOVABLE"
+        }
+    },
+    "13886": {
+        "expressID": 13886,
+        "type": 2391406946,
+        "GlobalId": {
+            "value": "1wLgcKmTP1khPI3vtwLkpt",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Wall__GF_Ramp_3.3mH",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0006\u0005\uddd1\udc00",
+            "type": 1
+        },
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 13885,
+            "type": 5
+        },
+        "Tag": null,
+        "PredefinedType": {
+            "type": 3,
+            "value": "MOVABLE"
+        }
+    },
+    "13892": {
+        "expressID": 13892,
+        "type": 3588315303,
+        "GlobalId": {
+            "value": "2Kam5tmk90Gem6WUw3$3Js",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Extru__1F_2F_RampParapet02_Outline",
+            "type": 1
+        },
+        "Description": null,
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 13891,
+            "type": 5
+        },
+        "Tag": null,
+        "PredefinedType": null
+    },
+    "13893": {
+        "expressID": 13893,
+        "type": 1401173127,
+        "GlobalId": {
+            "value": "3DWL8WmwnEpxLSchN0PURH",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Subtraction",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0005>6",
+            "type": 1
+        },
+        "RelatingBuildingElement": {
+            "value": 13886,
+            "type": 5
+        },
+        "RelatedOpeningElement": {
+            "value": 13892,
+            "type": 5
+        }
+    },
+    "13949": {
+        "expressID": 13949,
+        "type": 2391406946,
+        "GlobalId": {
+            "value": "1SLNCDyaz7jfxxogaHbhGP",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Wall__GF_Facade_3.25mH_Black",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0006\u0005\uddd1\udc00",
+            "type": 1
+        },
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 13948,
+            "type": 5
+        },
+        "Tag": null,
+        "PredefinedType": {
+            "type": 3,
+            "value": "MOVABLE"
+        }
+    },
+    "13966": {
+        "expressID": 13966,
+        "type": 2391406946,
+        "GlobalId": {
+            "value": "0Hu8RuP1bFUeVJ5NcrYuBP",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Wall__GF_Facade_3.25mH_White",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0006\u0005\uddd1\udc00",
+            "type": 1
+        },
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 13965,
+            "type": 5
+        },
+        "Tag": null,
+        "PredefinedType": {
+            "type": 3,
+            "value": "MOVABLE"
+        }
+    },
+    "13997": {
+        "expressID": 13997,
+        "type": 3588315303,
+        "GlobalId": {
+            "value": "1oA9D6AmLCCPlRy2gHVAp8",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Win__GF_Win_Back",
+            "type": 1
+        },
+        "Description": null,
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 13996,
+            "type": 5
+        },
+        "Tag": null,
+        "PredefinedType": null
+    },
+    "13998": {
+        "expressID": 13998,
+        "type": 1401173127,
+        "GlobalId": {
+            "value": "3rxEogm_H1EwSvJ2HMr9gR",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Subtraction",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0005\ude98\udc10",
+            "type": 1
+        },
+        "RelatingBuildingElement": {
+            "value": 13966,
+            "type": 5
+        },
+        "RelatedOpeningElement": {
+            "value": 13997,
+            "type": 5
+        }
+    },
+    "14676": {
+        "expressID": 14676,
+        "type": 3304561284,
+        "GlobalId": {
+            "value": "2fjjjfQwj5nfUjsDOYV4Yj",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Win__GF_Win_Back",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0006\u0005\uddd1\udc00",
+            "type": 1
+        },
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 14675,
+            "type": 5
+        },
+        "Tag": null,
+        "OverallHeight": null,
+        "OverallWidth": null,
+        "PredefinedType": {
+            "type": 3,
+            "value": "WINDOW"
+        },
+        "PartitioningType": {
+            "type": 3,
+            "value": "SINGLE_PANEL"
+        },
+        "UserDefinedPartitioningType": null
+    },
+    "15186": {
+        "expressID": 15186,
+        "type": 331165859,
+        "GlobalId": {
+            "value": "20oOpgafb1qgJseyA8gWDW",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Stairs__GF",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0006\u0005\uddd1\udc00",
+            "type": 1
+        },
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 15185,
+            "type": 5
+        },
+        "Tag": null,
+        "PredefinedType": {
+            "type": 3,
+            "value": "STRAIGHT_RUN_STAIR"
+        }
+    },
+    "15564": {
+        "expressID": 15564,
+        "type": 2391406946,
+        "GlobalId": {
+            "value": "2dimREzwT8TOaKDeVsZyIN",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Wall__GF_Column_03",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0006\u0005\uddd1\udc00",
+            "type": 1
+        },
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 15563,
+            "type": 5
+        },
+        "Tag": null,
+        "PredefinedType": {
+            "type": 3,
+            "value": "MOVABLE"
+        }
+    },
+    "15589": {
+        "expressID": 15589,
+        "type": 2391406946,
+        "GlobalId": {
+            "value": "34OaPEBC55mxXkSKdI4Q0E",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Wall__GF_EntrancePortal",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0006\u0005\uddd1\udc00",
+            "type": 1
+        },
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 15588,
+            "type": 5
+        },
+        "Tag": null,
+        "PredefinedType": {
+            "type": 3,
+            "value": "MOVABLE"
+        }
+    },
+    "15590": {
+        "expressID": 15590,
+        "type": 1095909175,
+        "GlobalId": {
+            "value": "3F1e5sit54phcHstIpWupT",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "BldgPart__GF_WinDoor",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0006\u0006\u0006\u0006\u0003\u0007",
+            "type": 1
+        },
+        "ObjectType": null,
+        "ObjectPlacement": null,
+        "Representation": null,
+        "Tag": null,
+        "PredefinedType": {
+            "type": 3,
+            "value": "COMPLEX"
+        }
+    },
+    "17623": {
+        "expressID": 17623,
+        "type": 3304561284,
+        "GlobalId": {
+            "value": "3efomUNlz9f8ORVTN3zmAO",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Win__GF_GlassWallPane_01",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0006\u0005\uddd1\udc00",
+            "type": 1
+        },
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 17622,
+            "type": 5
+        },
+        "Tag": null,
+        "OverallHeight": {
+            "type": 4,
+            "value": 2100
+        },
+        "OverallWidth": {
+            "type": 4,
+            "value": 1000
+        },
+        "PredefinedType": {
+            "type": 3,
+            "value": "WINDOW"
+        },
+        "PartitioningType": {
+            "type": 3,
+            "value": "SINGLE_PANEL"
+        },
+        "UserDefinedPartitioningType": null
+    },
+    "18322": {
+        "expressID": 18322,
+        "type": 3304561284,
+        "GlobalId": {
+            "value": "3efomUNlz9f8ORVTN3zmAO",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Win__GF_GlassWallPane_02",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0006\u0005\uddd1\udc00",
+            "type": 1
+        },
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 18321,
+            "type": 5
+        },
+        "Tag": null,
+        "OverallHeight": {
+            "type": 4,
+            "value": 2100
+        },
+        "OverallWidth": {
+            "type": 4,
+            "value": 1000
+        },
+        "PredefinedType": {
+            "type": 3,
+            "value": "WINDOW"
+        },
+        "PartitioningType": {
+            "type": 3,
+            "value": "SINGLE_PANEL"
+        },
+        "UserDefinedPartitioningType": null
+    },
+    "18628": {
+        "expressID": 18628,
+        "type": 3304561284,
+        "GlobalId": {
+            "value": "1tOGakQyX6Ghn385YvXKS0",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Win__GF_Win_EntranceDoor",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0006\u0005\uddd1\udc00",
+            "type": 1
+        },
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 18627,
+            "type": 5
+        },
+        "Tag": null,
+        "OverallHeight": null,
+        "OverallWidth": null,
+        "PredefinedType": {
+            "type": 3,
+            "value": "WINDOW"
+        },
+        "PartitioningType": {
+            "type": 3,
+            "value": "SINGLE_PANEL"
+        },
+        "UserDefinedPartitioningType": null
+    },
+    "18629": {
+        "expressID": 18629,
+        "type": 1095909175,
+        "GlobalId": {
+            "value": "0n7FMfj21ENuGCxZqdBTQW",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "BldgPart__GF_Furniture",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0006\u0006\u0006\u0006\u0003\u0007",
+            "type": 1
+        },
+        "ObjectType": null,
+        "ObjectPlacement": null,
+        "Representation": null,
+        "Tag": null,
+        "PredefinedType": {
+            "type": 3,
+            "value": "COMPLEX"
+        }
+    },
+    "18630": {
+        "expressID": 18630,
+        "type": 1095909175,
+        "GlobalId": {
+            "value": "0eMuvO1sb5mRvEPcljtmo8",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Lnk__Part__Bed-1_01",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0006\u0006\u0006\u0006\u0006\b\t\u0005ǈ",
+            "type": 1
+        },
+        "ObjectType": null,
+        "ObjectPlacement": null,
+        "Representation": null,
+        "Tag": null,
+        "PredefinedType": null
+    },
+    "18631": {
+        "expressID": 18631,
+        "type": 1095909175,
+        "GlobalId": {
+            "value": "0IbMeICCz3kQhVB9Wo3Iqs",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Lnk__Part__Bed-1_02",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0006\u0006\u0006\u0006\u0006\b\t\u0005Ȉ",
+            "type": 1
+        },
+        "ObjectType": null,
+        "ObjectPlacement": null,
+        "Representation": null,
+        "Tag": null,
+        "PredefinedType": null
+    },
+    "18632": {
+        "expressID": 18632,
+        "type": 3124254112,
+        "GlobalId": {
+            "value": "1w26Sztc1B_BUYCt3WmtUy",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "BldgPart__RF",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0006\u0006\u0006\u0001\u0005",
+            "type": 1
+        },
+        "ObjectType": null,
+        "ObjectPlacement": null,
+        "Representation": null,
+        "LongName": {
+            "value": "Floor",
+            "type": 1
+        },
+        "CompositionType": {
+            "type": 3,
+            "value": "COMPLEX"
+        },
+        "Elevation": {
+            "type": 4,
+            "value": 9.45
+        }
+    },
+    "18669": {
+        "expressID": 18669,
+        "type": 1095909175,
+        "GlobalId": {
+            "value": "2WjU2uHdH0swAdq3R40U30",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Struc__RF_Stair",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0006\u0005\uddd1\udc00",
+            "type": 1
+        },
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 18668,
+            "type": 5
+        },
+        "Tag": null,
+        "PredefinedType": {
+            "type": 3,
+            "value": "COMPLEX"
+        }
+    },
+    "18670": {
+        "expressID": 18670,
+        "type": 160246688,
+        "GlobalId": {
+            "value": "3eL3ZhNYv8hBJKKc0dp3y5",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Assembly",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0005\u0019",
+            "type": 1
+        },
+        "RelatingObject": {
+            "value": 25,
+            "type": 5
+        },
+        "RelatedObjects": [
+            {
+                "value": 1209,
+                "type": 5
+            },
+            {
+                "value": 1466,
+                "type": 5
+            },
+            {
+                "value": 1723,
+                "type": 5
+            },
+            {
+                "value": 1980,
+                "type": 5
+            },
+            {
+                "value": 2237,
+                "type": 5
+            },
+            {
+                "value": 2494,
+                "type": 5
+            },
+            {
+                "value": 2653,
+                "type": 5
+            },
+            {
+                "value": 2734,
+                "type": 5
+            },
+            {
+                "value": 3357,
+                "type": 5
+            },
+            {
+                "value": 3610,
+                "type": 5
+            },
+            {
+                "value": 3634,
+                "type": 5
+            },
+            {
+                "value": 3767,
+                "type": 5
+            },
+            {
+                "value": 3791,
+                "type": 5
+            },
+            {
+                "value": 4021,
+                "type": 5
+            },
+            {
+                "value": 4049,
+                "type": 5
+            },
+            {
+                "value": 4128,
+                "type": 5
+            },
+            {
+                "value": 4207,
+                "type": 5
+            },
+            {
+                "value": 4286,
+                "type": 5
+            },
+            {
+                "value": 4365,
+                "type": 5
+            },
+            {
+                "value": 4444,
+                "type": 5
+            },
+            {
+                "value": 4523,
+                "type": 5
+            },
+            {
+                "value": 4602,
+                "type": 5
+            },
+            {
+                "value": 4681,
+                "type": 5
+            },
+            {
+                "value": 4760,
+                "type": 5
+            },
+            {
+                "value": 4839,
+                "type": 5
+            },
+            {
+                "value": 4918,
+                "type": 5
+            },
+            {
+                "value": 6093,
+                "type": 5
+            }
+        ]
+    },
+    "18671": {
+        "expressID": 18671,
+        "type": 160246688,
+        "GlobalId": {
+            "value": "3Z2$Mf0xnEa9JZm3XD0550",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Assembly",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0005T\"",
+            "type": 1
+        },
+        "RelatingObject": {
+            "value": 8788,
+            "type": 5
+        },
+        "RelatedObjects": [
+            {
+                "value": 8789,
+                "type": 5
+            },
+            {
+                "value": 8790,
+                "type": 5
+            },
+            {
+                "value": 8791,
+                "type": 5
+            },
+            {
+                "value": 8792,
+                "type": 5
+            },
+            {
+                "value": 8793,
+                "type": 5
+            },
+            {
+                "value": 8794,
+                "type": 5
+            },
+            {
+                "value": 8795,
+                "type": 5
+            },
+            {
+                "value": 8796,
+                "type": 5
+            }
+        ]
+    },
+    "18672": {
+        "expressID": 18672,
+        "type": 160246688,
+        "GlobalId": {
+            "value": "18dVsksVjEsgRSWJxormqd",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Assembly",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0005]\"",
+            "type": 1
+        },
+        "RelatingObject": {
+            "value": 8797,
+            "type": 5
+        },
+        "RelatedObjects": [
+            {
+                "value": 8811,
+                "type": 5
+            },
+            {
+                "value": 8826,
+                "type": 5
+            },
+            {
+                "value": 8852,
+                "type": 5
+            },
+            {
+                "value": 8865,
+                "type": 5
+            },
+            {
+                "value": 8886,
+                "type": 5
+            }
+        ]
+    },
+    "18673": {
+        "expressID": 18673,
+        "type": 160246688,
+        "GlobalId": {
+            "value": "0XRbRcD2nCdx1Qn_CbJqQF",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Assembly",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0005漀",
+            "type": 1
+        },
+        "RelatingObject": {
+            "value": 15590,
+            "type": 5
+        },
+        "RelatedObjects": [
+            {
+                "value": 11052,
+                "type": 5
+            },
+            {
+                "value": 14676,
+                "type": 5
+            },
+            {
+                "value": 17623,
+                "type": 5
+            },
+            {
+                "value": 18322,
+                "type": 5
+            },
+            {
+                "value": 18628,
+                "type": 5
+            }
+        ]
+    },
+    "18674": {
+        "expressID": 18674,
+        "type": 160246688,
+        "GlobalId": {
+            "value": "2YVjwhDw94k9GDxKTPQSG9",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Assembly",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0005ň",
+            "type": 1
+        },
+        "RelatingObject": {
+            "value": 18629,
+            "type": 5
+        },
+        "RelatedObjects": [
+            {
+                "value": 18630,
+                "type": 5
+            },
+            {
+                "value": 18631,
+                "type": 5
+            }
+        ]
+    },
+    "18675": {
+        "expressID": 18675,
+        "type": 3242617779,
+        "GlobalId": {
+            "value": "1bxVsBMHv1qPh5AQ8fTWiu",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "StoreyLink",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0007\u0005\u0019",
+            "type": 1
+        },
+        "RelatedElements": [
+            {
+                "value": 25,
+                "type": 5
+            },
+            {
+                "value": 6114,
+                "type": 5
+            },
+            {
+                "value": 6946,
+                "type": 5
+            },
+            {
+                "value": 6962,
+                "type": 5
+            },
+            {
+                "value": 7028,
+                "type": 5
+            },
+            {
+                "value": 7085,
+                "type": 5
+            },
+            {
+                "value": 7121,
+                "type": 5
+            },
+            {
+                "value": 7384,
+                "type": 5
+            },
+            {
+                "value": 7996,
+                "type": 5
+            },
+            {
+                "value": 8237,
+                "type": 5
+            },
+            {
+                "value": 8788,
+                "type": 5
+            }
+        ],
+        "RelatingStructure": {
+            "value": 24,
+            "type": 5
+        }
+    },
+    "18676": {
+        "expressID": 18676,
+        "type": 3242617779,
+        "GlobalId": {
+            "value": "01nPg8iJTEOPRy4n7KzF5v",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "StoreyLink",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0007\u0005\u0006#",
+            "type": 1
+        },
+        "RelatedElements": [
+            {
+                "value": 8966,
+                "type": 5
+            },
+            {
+                "value": 8987,
+                "type": 5
+            },
+            {
+                "value": 9027,
+                "type": 5
+            },
+            {
+                "value": 9040,
+                "type": 5
+            },
+            {
+                "value": 9148,
+                "type": 5
+            },
+            {
+                "value": 9312,
+                "type": 5
+            }
+        ],
+        "RelatingStructure": {
+            "value": 8887,
+            "type": 5
+        }
+    },
+    "18677": {
+        "expressID": 18677,
+        "type": 3242617779,
+        "GlobalId": {
+            "value": "02mu77zID6WRAtWvhSJq6r",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "StoreyLink",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0007\u0005񀐀",
+            "type": 1
+        },
+        "RelatedElements": [
+            {
+                "value": 10113,
+                "type": 5
+            },
+            {
+                "value": 10716,
+                "type": 5
+            },
+            {
+                "value": 10727,
+                "type": 5
+            },
+            {
+                "value": 10940,
+                "type": 5
+            },
+            {
+                "value": 11128,
+                "type": 5
+            },
+            {
+                "value": 11164,
+                "type": 5
+            },
+            {
+                "value": 13155,
+                "type": 5
+            },
+            {
+                "value": 13873,
+                "type": 5
+            },
+            {
+                "value": 13886,
+                "type": 5
+            },
+            {
+                "value": 13949,
+                "type": 5
+            },
+            {
+                "value": 13966,
+                "type": 5
+            },
+            {
+                "value": 15186,
+                "type": 5
+            },
+            {
+                "value": 15564,
+                "type": 5
+            },
+            {
+                "value": 15589,
+                "type": 5
+            },
+            {
+                "value": 15590,
+                "type": 5
+            },
+            {
+                "value": 18629,
+                "type": 5
+            }
+        ],
+        "RelatingStructure": {
+            "value": 9360,
+            "type": 5
+        }
+    },
+    "18678": {
+        "expressID": 18678,
+        "type": 3242617779,
+        "GlobalId": {
+            "value": "2o9s7mRtz8e9auMBUThbrS",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "StoreyLink",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0007\u0005툐",
+            "type": 1
+        },
+        "RelatedElements": [
+            {
+                "value": 18669,
+                "type": 5
+            }
+        ],
+        "RelatingStructure": {
+            "value": 18632,
+            "type": 5
+        }
+    },
+    "18679": {
+        "expressID": 18679,
+        "type": 4031249490,
+        "GlobalId": {
+            "value": "1EwKGksS11MfaVZNXIALha",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Default Building",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0006\u0006\u0006\u0006\u0003\u0007",
+            "type": 1
+        },
+        "ObjectType": null,
+        "ObjectPlacement": null,
+        "Representation": null,
+        "LongName": null,
+        "CompositionType": {
+            "type": 3,
+            "value": "ELEMENT"
+        },
+        "ElevationOfRefHeight": null,
+        "ElevationOfTerrain": null,
+        "BuildingAddress": null
+    },
+    "18680": {
+        "expressID": 18680,
+        "type": 160246688,
+        "GlobalId": {
+            "value": "2ym7m1aOz1wB4$5ImPP6Pa",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "ProjectLink",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0005\u0017",
+            "type": 1
+        },
+        "RelatingObject": {
+            "value": 23,
+            "type": 5
+        },
+        "RelatedObjects": [
+            {
+                "value": 18679,
+                "type": 5
+            }
+        ]
+    },
+    "18681": {
+        "expressID": 18681,
+        "type": 160246688,
+        "GlobalId": {
+            "value": "1GHzIX5F195hMj_hX$iD7j",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "BuildingLink",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0005\udee0\udc10",
+            "type": 1
+        },
+        "RelatingObject": {
+            "value": 18679,
+            "type": 5
+        },
+        "RelatedObjects": [
+            {
+                "value": 24,
+                "type": 5
+            },
+            {
+                "value": 8887,
+                "type": 5
+            },
+            {
+                "value": 9360,
+                "type": 5
+            },
+            {
+                "value": 18632,
+                "type": 5
+            }
+        ]
+    },
+    "18682": {
+        "expressID": 18682,
+        "type": 3242617779,
+        "GlobalId": {
+            "value": "2LVwhYuG983OyysBlft05c",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "UnassignedObjectsLink",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0007\u0005]\"",
+            "type": 1
+        },
+        "RelatedElements": [
+            {
+                "value": 8797,
+                "type": 5
+            }
+        ],
+        "RelatingStructure": {
+            "value": 18632,
+            "type": 5
+        }
+    },
+    "18853": {
+        "expressID": 18853,
+        "type": 1674181508,
+        "GlobalId": {
+            "value": "1cH1TP7qP4y9jBeo5oLQ0q",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Part__Bed-2",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0006\u0005\uddd1\udc00",
+            "type": 1
+        },
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 18852,
+            "type": 5
+        }
+    },
+    "19088": {
+        "expressID": 19088,
+        "type": 1674181508,
+        "GlobalId": {
+            "value": "0LzJQ07lT2fAXSNd_EWv7O",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "Part__Bed-1",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0006\u0005\uddd1\udc00",
+            "type": 1
+        },
+        "ObjectType": null,
+        "ObjectPlacement": {
+            "value": 1206,
+            "type": 5
+        },
+        "Representation": {
+            "value": 19087,
+            "type": 5
+        }
+    },
+    "19089": {
+        "expressID": 19089,
+        "type": 3242617779,
+        "GlobalId": {
+            "value": "3s4fSTAuL7LODV7p2KKaXJ",
+            "type": 1
+        },
+        "OwnerHistory": {
+            "value": 5,
+            "type": 5
+        },
+        "Name": {
+            "value": "AnnotationsLink",
+            "type": 1
+        },
+        "Description": {
+            "value": "\u0007\u0005\udce5\udc00",
+            "type": 1
+        },
+        "RelatedElements": [
+            {
+                "value": 18853,
+                "type": 5
+            },
+            {
+                "value": 19088,
+                "type": 5
+            }
+        ],
+        "RelatingStructure": {
+            "value": 18632,
+            "type": 5
+        }
+    },
+    "coordinationMatrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -0.20000000000000018,
+        -6.550000000000001,
+        5.85,
+        1
+    ]
+}
