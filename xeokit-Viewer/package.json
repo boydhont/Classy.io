@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@xeokit/xeokit-sdk": "^2.5.2-beta-20"
+  }
+}
