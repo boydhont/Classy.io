@@ -30,7 +30,7 @@ async function readFileAsUint8Array(filePath) {
     }
 }
 
-const filePath = './models/Villa Savoye.ifc';
+const filePath = '../../assets/Office with Balcony Slabs.ifc';
 const buffer = await readFileAsUint8Array(filePath);
 const model = await fragmentIfcLoader.load(buffer);
 scene.add(model);
