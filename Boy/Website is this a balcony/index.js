@@ -60,7 +60,7 @@ console.log(guidList);
 
 // GLobal variables //TODO delete
 let idCounter = 0;
-let maxIdCounter = guidList.length;
+let maxIdCounter = Object.keys(model.items);
 
 // Materials
 const basicMaterial = new THREE.MeshBasicMaterial({
@@ -177,17 +177,20 @@ const paintMaterials = () => {
 
 const paintNextId = () => {
     idCounter++;
-    if (idCounter > maxIdCounter) idCounter = 0;
+    if (idCounter > 30) idCounter = 0;
     paintMaterials();
     //TODO add max cap
 }
 
 paintMaterials();
 
+// Set an interval to call the function every 500 milliseconds (0.5 seconds)
+const intervalId = setInterval(paintNextId, 50);
+
 const toolbar = getToolbar(components, "Main Toolbar");
-const acceptButton = getButton(components, toolbar, "task_alt", "This is a balcony", paintNextId);
-const declineButton = getButton(components, toolbar, "dangerous", "This is not a balcony", paintNextId);
-const zoomButton = getButton(components, toolbar, "zoom_in_map", "Zoom to Fit", zoomToFit);
+//const acceptButton = getButton(components, toolbar, "task_alt", "This is a balcony", paintNextId);
+//const declineButton = getButton(components, toolbar, "dangerous", "This is not a balcony", paintNextId);
+//const zoomButton = getButton(components, toolbar, "zoom_in_map", "Zoom to Fit", zoomToFit);
 
 //const uploadButton = getButtonFromButton(components, toolbar, "upload", "Upload .ifc", ifcImportButton);
 //const downloadButton = getButton(components, toolbar, "download", "Download .frag and .json", exportFragments);
