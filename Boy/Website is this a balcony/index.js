@@ -177,7 +177,7 @@ const paintMaterials = () => {
 
 const paintNextId = () => {
     idCounter++;
-    if (idCounter > 30) idCounter = 0;
+    if (idCounter > 5) idCounter = 0;
     paintMaterials();
     //TODO add max cap
 }
@@ -185,7 +185,7 @@ const paintNextId = () => {
 paintMaterials();
 
 // Set an interval to call the function every 500 milliseconds (0.5 seconds)
-const intervalId = setInterval(paintNextId, 50);
+const intervalId = setInterval(paintNextId, 200);
 
 const toolbar = getToolbar(components, "Main Toolbar");
 //const acceptButton = getButton(components, toolbar, "task_alt", "This is a balcony", paintNextId);
