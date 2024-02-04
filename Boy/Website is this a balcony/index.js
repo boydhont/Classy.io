@@ -4,7 +4,6 @@
 
 import * as THREE from 'three';
 import * as OBC from 'openbim-components';
-import { downloadZip } from 'client-zip';
 
 //Grab HTML container
 const container = document.getElementById('container');
@@ -25,6 +24,7 @@ scene.background = new THREE.Color(1, 1, 1);
 //const grid = new OBC.SimpleGrid(components);
 //components.tools.add("grid", grid);
 
+
 // 🐒 Import
 
 let fragments = new OBC.FragmentManager(components);
@@ -39,20 +39,66 @@ const file = await fetch("./assets/model.frag");
 const data = await file.arrayBuffer();
 const buffer = new Uint8Array(data);
 const model = await fragments.load(buffer);
-//const properties = await fetch("./assets/model.json");
-//model.properties = await properties.json();
+const properties = await fetch("./assets/model.json");
+model.properties = await properties.json();
 
-// Basic color
+//Property Scanning
+/*const propsProcessor = new OBC.IfcPropertiesProcessor(components);
+propsProcessor.process(model);
+propsProcessor.cleanPropertiesList();*/
+
+// Generate guid list
+let guidList = [];
+for (let key in Object.keys(model.items)) {
+    if (model.items.hasOwnProperty(key) == false) continue;
+    const item = model.items[key];
+    const group = item.group
+    for (const keyVal in Object.keys(group.keyFragments)) guidList.push(group.keyFragments[keyVal]);
+}
+
+console.log(guidList);
+
+// GLobal variables //TODO delete
+let idCounter = 0;
+let maxIdCounter = Object.keys(model.items);
+
+// Materials
 const basicMaterial = new THREE.MeshBasicMaterial({
     color: new THREE.Color(0.5, 0.5, 0.5),  // Set the color of the material
     transparent: true, // Enable transparency
-    opacity: 0.3       // Set the opacity (0.0 to 1.0, where 0 is fully transparent and 1 is fully opaque)
-  });
+    opacity: 0.2       // Set the opacity (0.0 to 1.0, where 0 is fully transparent and 1 is fully opaque)
+});
 
-for(let key in Object.keys(model.items)){
-    if(model.items.hasOwnProperty(key) == false)continue;
-    const item = model.items[key];
-    item.mesh.material = basicMaterial;
+const wireFrameMaterial = new THREE.MeshBasicMaterial({
+    color: new THREE.Color(0.5, 0.5, 0.5),  // Set the color of the material
+    wireframe: true,
+    // Optionally, you can set the wireframe line width
+    wireframeLinewidth: 0.2,
+    transparent: true, // Enable transparency
+    opacity: 0.2       // Set the opacity (0.0 to 1.0, where 0 is fully transparent and 1 is fully opaque)
+});
+
+const highlightMaterial = new THREE.MeshBasicMaterial({
+    color: new THREE.Color(0, 0, 0)  // Set the color of the material
+});
+
+const setAllMaterials = (material) => {
+    for (let key in Object.keys(model.items)) {
+        if (model.items.hasOwnProperty(key) == false) continue;
+        const item = model.items[key];
+        item.mesh.material = material;
+    }
+}
+
+const setIdMaterials = (material, id) => {
+    let count = 0;
+    for (let key in Object.keys(model.items)) {
+        if (model.items.hasOwnProperty(key) == false) continue;
+        const item = model.items[key];
+        if (count != id) { count++; continue; }
+        count++;
+        item.mesh.material = material;
+    }
 }
 
 // Zoom
@@ -64,20 +110,6 @@ const controls = components.camera.controls;
 
 const zoomToFit = () => controls.fitToSphere(bbox, true);
 zoomToFit();
-
-// Hider
-const hider = new OBC.FragmentHider(components);
-await hider.loadCached();
-
-const classifier = new OBC.FragmentClassifier(components);
-classifier.byEntity(model);
-const classifications = classifier.get();
-
-const classes = {};
-const classNames = Object.keys(classifications.entities);
-for (const name of classNames) {
-classes[name] = true;
-}
 
 // 🐇 Export
 
@@ -137,10 +169,28 @@ const getButtonFromButton = (components, toolbar, materialIcon, tooltip, oldButt
     return button;
 }
 
+const paintMaterials = () => {
+    setAllMaterials(wireFrameMaterial);
+    setIdMaterials(highlightMaterial, idCounter);
+}
+
+
+const paintNextId = () => {
+    idCounter++;
+    if (idCounter > 5) idCounter = 0;
+    paintMaterials();
+    //TODO add max cap
+}
+
+paintMaterials();
+
+// Set an interval to call the function every 500 milliseconds (0.5 seconds)
+const intervalId = setInterval(paintNextId, 200);
+
 const toolbar = getToolbar(components, "Main Toolbar");
-const acceptButton = getButton(components, toolbar, "task_alt", "This is a balcony", null);
-const declineButton = getButton(components, toolbar, "dangerous", "This is not a balcony", null);
-const zoomButton = getButton(components, toolbar, "zoom_in_map", "Zoom to Fit", zoomToFit);
+//const acceptButton = getButton(components, toolbar, "task_alt", "This is a balcony", paintNextId);
+//const declineButton = getButton(components, toolbar, "dangerous", "This is not a balcony", paintNextId);
+//const zoomButton = getButton(components, toolbar, "zoom_in_map", "Zoom to Fit", zoomToFit);
 
 //const uploadButton = getButtonFromButton(components, toolbar, "upload", "Upload .ifc", ifcImportButton);
 //const downloadButton = getButton(components, toolbar, "download", "Download .frag and .json", exportFragments);
