@@ -97,6 +97,12 @@ section.has-light-background, section.has-light-background h1, section.has-light
 }
 
 .reveal h1 {
+  text-decoration: underline;
+  text-decoration-color: #C19A6B;
+  letter-spacing: 0.05em;
+}
+
+.reveal h1 {
   font-size: var(--r-heading1-size);
 }
 

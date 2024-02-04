@@ -15,7 +15,7 @@ section.has-light-background, section.has-light-background h1, section.has-light
  * GLOBAL STYLES
  *********************************************/
 :root {
-  --r-background-color: #2b2b2b;
+  --r-background-color: #b15151;
   --r-main-font: Montserrat, sans-serif;
   --r-main-font-size: 40px;
   --r-main-color: #eee;
@@ -97,6 +97,12 @@ section.has-light-background, section.has-light-background h1, section.has-light
   text-transform: var(--r-heading-text-transform);
   text-shadow: var(--r-heading-text-shadow);
   word-wrap: break-word;
+}
+
+.reveal h1 {
+  text-decoration: underline;
+  text-decoration-color: #C19A6B;
+  letter-spacing: 0.05em;
 }
 
 .reveal h1 {
