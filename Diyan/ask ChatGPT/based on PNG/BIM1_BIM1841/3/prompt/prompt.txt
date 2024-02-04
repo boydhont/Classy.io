@@ -1,0 +1,1 @@
+Please convert these images to grayscale, recognize all the balconies based on their key features and highlight them in color hex(c19a6b). Only balconies are allowed to be highlighted.

@@ -1,0 +1,1 @@
+Please convert these screenshots of a 3D model of a building to grayscale. Then try to recognize all the balconies the most suitable way you find and at the end highlight them in color hex(c19a6b). Only balconies are allowed to be highlighted.

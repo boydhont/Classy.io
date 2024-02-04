@@ -26,7 +26,7 @@
 <script type="module">
 
     import {Viewer, XKTLoaderPlugin} from "./node_modules/@xeokit/xeokit-sdk/dist/xeokit-sdk.es.js";
-
+	
 //------------------------------------------------------------------------------------------------------------------
 // 1. Create a Viewer,
 // 2. Arrange the camera
@@ -54,7 +54,7 @@ const xktLoader = new XKTLoaderPlugin(viewer);
 // 2
 const model = xktLoader.load({          // Returns an Entity that represents the model
     id: "myModel",
-    src: "../assets/XKT/Schependomlaan_Schependomlaan/cxConverter1_Schependomlaan_Schependomlaan/model.xkt",
+    src: "../assets/XKT/BIM1_BIM1841/cxConverter1_BIM1_BIM1841/model.xkt",
     edges: true
 });
 
@@ -69,13 +69,13 @@ model.on("loaded", () => {
     // 1
     const metaModel = viewer.metaScene.metaModels["myModel"];       // MetaModel with ID "myModel"
     const metaObject
-         = viewer.metaScene.metaObjects["0u4wgLe6n0ABVaiXyikbkA"];  // MetaObject with ID "0u4wgLe6n0ABVaiXyikbkA"
+         = viewer.metaScene.metaObjects["1MNN4cKTXE4eBjIINvGKeO"];  // MetaObject with ID "1MNN4cKTXE4eBjIINvGKeO"
 
     const name = metaObject.name;                                   // "01 eerste verdieping"
     const type = metaObject.type;                                   // "IfcBuildingStorey"
     const parent = metaObject.parent;                               // MetaObject with type "IfcBuilding"
     const children = metaObject.children;                           // Array of child MetaObjects
-    const objectId = metaObject.id;                                 // "0u4wgLe6n0ABVaiXyikbkA"
+    const objectId = metaObject.id;                                 // "1MNN4cKTXE4eBjIINvGKeO"
     const objectIds = viewer.metaScene.getObjectIDsInSubtree(objectId);   // IDs of leaf sub-objects
     const aabb = viewer.scene.getAABB(objectIds);                   // Axis-aligned boundary of the leaf sub-objects
 

@@ -1,0 +1,1 @@
+Hello there! Please recognize all the balconies in the most suitable way you find. Then convert the images to grayscale and highlight only the balconies in color hex(c19a6b).
