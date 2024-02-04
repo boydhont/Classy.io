@@ -27,6 +27,7 @@
   "type": "module",
   "dependencies": {
     "@sveltejs/adapter-static": "^3.0.1",
+    "tailwind-merge": "^2.2.1",
     "three": "^0.161.0"
   }
 }

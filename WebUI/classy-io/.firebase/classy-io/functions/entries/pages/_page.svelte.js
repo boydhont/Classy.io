@@ -354,7 +354,7 @@ const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   do {
     $$settled = true;
     $$result.head = previous_head;
-    $$rendered = `<div class="h-screen px-48 py-20 flex items-center"><div class="px-[20vw] bg-neutral-100 py-20 rounded-xl h-full w-full relative"><div class="w-full flex justify-center"><h1 class="text-4xl tracking-wider" data-svelte-h="svelte-vmno3t">CLASSY.IO</h1></div> ${`${validate_component(Label, "Label").$$render($$result, { class: "space-y-2 mb-2 pt-20 text-lg" }, {}, {
+    $$rendered = `<div class="h-screen px-48 py-20 flex items-center"><div class="px-[20vw] bg-neutral-100 py-20 rounded-xl h-full w-full relative"><div class="w-full flex justify-center"><img class="h-52" src="/classy.io_logo.svg" alt=""></div> ${`${validate_component(Label, "Label").$$render($$result, { class: "space-y-2 mb-2 pt-20 text-lg" }, {}, {
       default: () => {
         return `<span data-svelte-h="svelte-14ld10">Upload you IFC</span> ${validate_component(Fileupload, "Fileupload").$$render(
           $$result,

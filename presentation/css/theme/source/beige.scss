@@ -4,13 +4,10 @@
  * Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
  */
 
-
 // Default mixins and settings -----------------
 @import "../template/mixins";
 @import "../template/settings";
 // ---------------------------------------------
-
-
 
 // Include theme-specific fonts
 @import url(./fonts/league-gothic/league-gothic.css);
@@ -37,7 +34,6 @@ $overlayElementFgColor: 240, 240, 240;
 
 // Change text colors against dark slide backgrounds
 @include dark-bg-text-color(#fff);
-
 
 // Theme template ------------------------------
 @import "../template/theme";
