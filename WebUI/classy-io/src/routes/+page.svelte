@@ -30,7 +30,7 @@
       currentCheckIndex++;
     }, 1000);
 
-    progress += Math.round(Math.random() * (40 - 30) + 30);
+    progress += Math.round(Math.random() * (20 - 10) + 20);
     if (progress > 80) progress = 89; // Ensure progress does not exceed 80%
   }
 
@@ -55,7 +55,7 @@
 </script>
 
 <div class="h-screen px-48 py-20 flex items-center">
-  <div class="px-[20vw] bg-neutral-100 py-20 rounded-xl h-full w-full relative">
+  <div class="px-[16vw] bg-neutral-100 py-20 rounded-xl h-full w-full relative">
     <div class="w-full flex justify-center">
       <img class="h-52" src="/classy.io_logo.svg" alt="" />
     </div>
@@ -76,7 +76,7 @@
     {:else if checksRunning || (true && checker)}
       <div class="my-10 h-[40%]">
         {#each currentChecks as check, index (check.label)}
-          <div class="grid grid-cols-2 gap-5">
+          <div class="grid grid-cols-2 gap-5 mt-5">
             <Label for={check.label}>{check.label}</Label>
             <Checkbox id={check.label} bind:checked={check.checked}></Checkbox>
           </div>

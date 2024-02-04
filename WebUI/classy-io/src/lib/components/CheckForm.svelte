@@ -5,9 +5,10 @@
   let checks = [false, false, false]; // Represents the state of each check
 
   let checkboxes = [
-    { label: "Offset Mesh Offset", checked: false },
-    { label: "Vector Analysis", checked: false },
-    { label: "Label Analysis", checked: false },
+    { label: "Shrinkwrap", checked: false },
+    { label: "Visual Recognition with LLM", checked: false },
+    { label: "Graph Pattern Matching", checked: false },
+    { label: "Geometrical Neighbour Interpretation", checked: false },
   ];
 
   let dispatcher = createEventDispatcher();

@@ -69,3 +69,7 @@ venv/
 
 # Folder visual studio code
 .vscode/
+
+#firebase
+**.firebase
+**/*/.firebase
