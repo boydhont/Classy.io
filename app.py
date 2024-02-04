@@ -1,26 +1,34 @@
 import tempfile
 
+from topologicpy.Cluster import Cluster
+from topologicpy.Graph import Graph
 from viktor import ViktorController, File, UserError
 from viktor.external.generic import GenericAnalysis
 from viktor.parametrization import ViktorParametrization, Text, FileField
-from viktor.views import IFCView, IFCResult, GeometryView, GeometryResult
+from viktor.views import IFCView, IFCResult, GeometryView, GeometryResult, WebView, WebResult
 import ifcopenshell
 from io import BytesIO, StringIO
 
+from topologic_code.ifc2graph import ByIFCRelationships, IFCRelationshipTypes, IFCRelationships
 
 
 def convert_mm_to_m(value_in_mm):
     return value_in_mm / 1000.0
 
 
-def ifc_to_obj_file(ifc_file: File):
+def get_ifc_file_path(ifc_file):
     # Create a temporary file-like object from the bytes string
     # Open the IFC file
     with tempfile.NamedTemporaryFile(delete=False) as temp_ifc_file:
         temp_ifc_file.write(ifc_file.getvalue_binary())
 
     # Open the IFC file using ifcopenshell
-    ifc_file = ifcopenshell.open(temp_ifc_file.name)
+    return temp_ifc_file.name
+
+
+def ifc_to_obj_file(ifc_file: File):
+    # Open the IFC file using ifcopenshell
+    ifc_file = ifcopenshell.open(get_ifc_file_path(ifc_file))
 
     # Create a StringIO object to store OBJ data as a string
     obj_stringio = StringIO()
@@ -40,7 +48,9 @@ def ifc_to_obj_file(ifc_file: File):
                                 # Write face vertices to StringIO object
                                 obj_stringio.write("f")
                                 for vertex in face.Bounds[0].Bound.Vertices:
-                                    obj_stringio.write(" {0}".format(vertex.Coordinates()))
+                                    # Convert coordinates from mm to meters
+                                    x, y, z = [convert_mm_to_m(coord) for coord in vertex.Coordinates()]
+                                    obj_stringio.write(" {0} {1} {2}".format(x, y, z))
                                 obj_stringio.write("\n")
 
     return File.from_data(obj_stringio.getvalue())
@@ -84,3 +94,27 @@ class Controller(ViktorController):
         threedm_file = generic_analysis.get_output_file("geometry.3dm", as_file=True)
 
         return GeometryResult(geometry=threedm_file, geometry_type="3dm")
+
+    @WebView("Testing", duration_guess=5)
+    def get_web_view(self, params, **kwargs):
+        object_types = [
+            'IfcRoof',
+            'IfcStair',
+            'IfcProject',
+            'IfcSite',
+            'IfcBuildingStorey',
+            'IfcBuilding',
+            'IfcSlab',
+            'IfcSpad',
+        ]
+        path_ifc = get_ifc_file_path(params.ifc_file_source.file)
+        ifc_file = ifcopenshell.open(path_ifc)
+        print(IFCRelationshipTypes(ifc_file))
+        ifc_rels = IFCRelationships(ifc_file, include=[])
+        vertices, edges = ByIFCRelationships(ifc_rels, object_types)
+        print(len(vertices))
+        if len(vertices) > 0:
+            g = Graph.ByVerticesEdges(vertices, edges)
+        else:
+            print("No vertices")
+        return WebResult('')
