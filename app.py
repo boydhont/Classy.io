@@ -1,15 +1,17 @@
 import tempfile
+from pathlib import Path
 
-from topologicpy.Cluster import Cluster
-from topologicpy.Graph import Graph
+# from topologicpy.Cluster import Cluster
+# from topologicpy.Graph import Graph
 from viktor import ViktorController, File, UserError
 from viktor.external.generic import GenericAnalysis
-from viktor.parametrization import ViktorParametrization, Text, FileField
+from viktor.parametrization import ViktorParametrization, Text, FileField, BooleanField, OptionField, DownloadButton
+from viktor.result import DownloadResult
 from viktor.views import IFCView, IFCResult, GeometryView, GeometryResult, WebView, WebResult
 import ifcopenshell
 from io import BytesIO, StringIO
 
-from topologic_code.ifc2graph import ByIFCRelationships, IFCRelationshipTypes, IFCRelationships
+# from topologic_code.ifc2graph import ByIFCRelationships, IFCRelationshipTypes, IFCRelationships
 
 
 def convert_mm_to_m(value_in_mm):
@@ -63,6 +65,18 @@ Let's make some steps in making IFC classification easier.
 ## Step 1: Upload your IFC file
     """)
     ifc_file_source = FileField('Upload IFC file', file_types=['.ifc'], flex=100)
+    step_two_text = Text("## Step 2: Select your classification model")
+    test = BooleanField('Test')
+    classification_options = OptionField(
+        'Pick your classification options',
+        options=[
+            'Shrinkwrap',
+            'Visual Recognition with LLLM',
+            'Graph Pattern Matching',
+            'Geometrical Neighbour Interpretation'
+        ], default="Shrinkwrap", flex=100)
+    step_three_text = Text("""## Step 3: Download classified model""")
+    download_button = DownloadButton("Download calssifified IFC file", method="download_file", flex=100)
 
 
 class Controller(ViktorController):
@@ -79,6 +93,10 @@ class Controller(ViktorController):
     def get_grasshopper_view(self, params, **kwargs):
         if not params.ifc_file_source:
             raise UserError("Make sure to upload an IFC file...")
+        if params.classification_options != "Shrinkwrap":
+            raise UserError(
+                f'"{params.classification_options}" classification method is in development... Please try another method.'
+            )
         obj_file = ifc_to_obj_file(params.ifc_file_source.file)
         files = [('input.obj', obj_file)]
 
@@ -87,34 +105,40 @@ class Controller(ViktorController):
                                            output_filenames=["geometry.3dm"])
         try:
             generic_analysis.execute(timeout=60)
+            threedm_file = generic_analysis.get_output_file("geometry.3dm", as_file=True)
         except Exception as e:
-            raise UserError("Grasshopper calculation failed.\n"
-                            "Please check whether the worker is connected...\n"
-                            "Otherwise, check the logs on the machine...")
-        threedm_file = generic_analysis.get_output_file("geometry.3dm", as_file=True)
+            if params.test:
+                threedm_file = File.from_path(Path(__file__).parent / "gh" / "viktor-grasshopper" / "test_geometry.3dm")
+            else:
+                raise UserError("Grasshopper calculation failed.\n"
+                                "Please check whether the worker is connected...\n"
+                                "Otherwise, check the logs on the machine...")
 
         return GeometryResult(geometry=threedm_file, geometry_type="3dm")
 
-    @WebView("Testing", duration_guess=5)
-    def get_web_view(self, params, **kwargs):
-        object_types = [
-            'IfcRoof',
-            'IfcStair',
-            'IfcProject',
-            'IfcSite',
-            'IfcBuildingStorey',
-            'IfcBuilding',
-            'IfcSlab',
-            'IfcSpad',
-        ]
-        path_ifc = get_ifc_file_path(params.ifc_file_source.file)
-        ifc_file = ifcopenshell.open(path_ifc)
-        print(IFCRelationshipTypes(ifc_file))
-        ifc_rels = IFCRelationships(ifc_file, include=[])
-        vertices, edges = ByIFCRelationships(ifc_rels, object_types)
-        print(len(vertices))
-        if len(vertices) > 0:
-            g = Graph.ByVerticesEdges(vertices, edges)
-        else:
-            print("No vertices")
-        return WebResult('')
+    def download_file(self, params, **kwargs):
+        return DownloadResult(params.ifc_file_source.file, file_name=f"classified-{params.ifc_file_source.name}")
+
+    # @WebView("Testing", duration_guess=5)
+    # def get_web_view(self, params, **kwargs):
+    #     object_types = [
+    #         'IfcRoof',
+    #         'IfcStair',
+    #         'IfcProject',
+    #         'IfcSite',
+    #         'IfcBuildingStorey',
+    #         'IfcBuilding',
+    #         'IfcSlab',
+    #         'IfcSpad',
+    #     ]
+    #     path_ifc = get_ifc_file_path(params.ifc_file_source.file)
+    #     ifc_file = ifcopenshell.open(path_ifc)
+    #     print(IFCRelationshipTypes(ifc_file))
+    #     ifc_rels = IFCRelationships(ifc_file, include=[])
+    #     vertices, edges = ByIFCRelationships(ifc_rels, object_types)
+    #     print(len(vertices))
+    #     if len(vertices) > 0:
+    #         g = Graph.ByVerticesEdges(vertices, edges)
+    #     else:
+    #         print("No vertices")
+    #     return WebResult('')
