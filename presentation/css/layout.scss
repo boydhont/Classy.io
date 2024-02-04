@@ -2,6 +2,9 @@
  * Layout helpers.
  */
 
+//
+$base-color: #C19A6B;
+
 // Stretch an element vertically based on available space
 .reveal .stretch,
 .reveal .r-stretch {
@@ -15,6 +18,8 @@
 	max-height: 100%;
 	box-sizing: border-box;
 }
+
+
 
 // Text that auto-fits its container
 .reveal .r-fit-text {
