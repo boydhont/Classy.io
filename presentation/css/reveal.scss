@@ -317,7 +317,10 @@ $controlsArrowAngleActive: 36deg;
 		width: $controlArrowLength;
 		height: $controlArrowThickness;
 		border-radius: $controlArrowThickness*0.5;
-		background-color: currentColor;
+		background-color: #C19A6B;
+
+		// background-color: #C19A6B;
+		// fill: #C19A6B;
 
 		transition: all 0.15s ease, background-color 0.8s ease;
 		transform-origin: math.div(floor(($controlArrowThickness*0.5)*10), 10) 50%;
@@ -328,7 +331,6 @@ $controlsArrowAngleActive: 36deg;
 		position: relative;
 		width: $controlArrowSize;
 		height: $controlArrowSize;
-
 		@include controlsArrowTransform( $controlsArrowAngle );
 
 		&:hover {
@@ -344,6 +346,7 @@ $controlsArrowAngleActive: 36deg;
 		right: $controlArrowSize + $controlArrowSpacing*2;
 		bottom: $controlArrowSpacing + $controlArrowSize*0.5;
 		transform: translateX( -10px );
+
 
 		&.highlight {
 			animation: bounce-left 2s 50 both ease-out;
