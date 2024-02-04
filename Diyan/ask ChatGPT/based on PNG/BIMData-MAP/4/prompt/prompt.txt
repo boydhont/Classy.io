@@ -1,0 +1,1 @@
+Please make these images black and white, and also highlight all the balconies in color hex(c19a6b). If there are no balconies, please do not highlight anything.

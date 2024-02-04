@@ -1,0 +1,5 @@
+hello there! I want to upload screenshots of 3D models of buildings to ChatGPT4 and have on these images only the balconies recognized and highlighted. For the recognition of the balconies it should be considered what key features are typical for balconies. The resulted images should be black and white with only the highlight color being hex(c19a6b). Can you please suggest the most effective prompt in order to achieve this goal?
+
+->
+
+Please analyze the uploaded screenshots of 3D models of buildings to recognize balconies. Balconies are typically protrusions from the building's main facade and feature railings or balustrades, and are accessible through doors or large windows. Once a balcony is recognized, highlight it while converting the rest of the image to grayscale. Ensure that the highlighted areas are colored with hex #c19a6b.

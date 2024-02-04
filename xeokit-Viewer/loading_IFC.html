@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>xeokit-sdk Visual Test</title>
+</head>
+<style>
+    body {
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        user-select: none;
+    }
+
+    #myCanvas {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background: lightblue;
+        background-image: linear-gradient(lightblue, white);
+    }
+</style>
+<body>
+<canvas id="myCanvas"></canvas>
+</body>
+<script type="module">
+
+    import {Viewer, WebIFCLoaderPlugin} from "./node_modules/@xeokit/xeokit-sdk/dist/xeokit-sdk.es.js";
+	
+const viewer = new Viewer({
+    canvasId: "myCanvas",
+    transparent: true
+});
+
+viewer.camera.eye = [-3.933, 2.855, 27.018];
+viewer.camera.look = [4.400, 3.724, 8.899];
+viewer.camera.up = [-0.018, 0.999, 0.039];
+
+const webIFCLoader = new WebIFCLoaderPlugin(viewer, {
+    wasmPath: "./node_modules/@xeokit/xeokit-sdk/dist/"
+});
+
+const model = webIFCLoader.load({ // Returns an Entity that represents the model
+    src: "./assets/Duplex.ifc",
+    edges: true,
+    includeTypes: ["IfcWallStandardCase"]
+});
+
+</script>
+</html>

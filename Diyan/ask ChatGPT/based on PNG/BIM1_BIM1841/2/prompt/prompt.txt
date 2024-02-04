@@ -1,0 +1,10 @@
+Imagine you're analyzing screenshots of 3D models of buildings to identify balconies. Balconies are outdoor spaces accessible from inside a building, often found on the upper floors, and serve as small terraces or platforms projecting from the wall of a building. To recognize balconies, look for these key features in the screenshots:
+
+Projection from the Building's Exterior: Unlike other parts of a building, balconies usually protrude from the walls.
+Guardrails or Balustrades: For safety, balconies are equipped with guardrails or balustrades, which can be made of various materials like metal, glass, or wood.
+Flooring Different from the Building's Facade: The flooring of a balcony often differs in texture or color from the building's exterior walls, making it stand out.
+Access Points: Look for doors or large windows leading to the exterior space, indicating a transition from indoor to outdoor, characteristic of balconies.
+Outdoor Furnishings or Plants: Balconies might be adorned with outdoor furniture, plants, or decorative items, providing a clue to their open-air nature.
+By focusing on these features, you can better distinguish balconies from other architectural elements like windows or terraces in the screenshots of 3D models. Remember, balconies can vary greatly in size, shape, and design, so keep an eye out for these general characteristics.
+
+Please also make the resulted images black and white, while keeping the highlight colour for the balconies as hex(c19a6b).
