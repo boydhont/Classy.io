@@ -1,1 +1,5 @@
 viktor==14.7.0
+ifcopenshell
+topologicpy==0.4.64
+pyvis
+shapely
